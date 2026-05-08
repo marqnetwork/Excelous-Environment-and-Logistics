@@ -1,0 +1,151 @@
+import { motion } from 'motion/react';
+import { Calendar, MapPin, CheckCircle2, ChevronRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
+
+const projects = [
+  {
+    title: 'Hurricane Helene & Milton — Support',
+    client: 'Ceres Environmental (Prime Contractor)',
+    locations: 'NC, KY, FL',
+    desc: 'Rapid mobilization of certified crews and heavy machinery for systematic hazardous tree assessment and prioritized removal across multiple state jurisdictions.',
+    results: [
+      'Cleared critical roadways and transit corridors',
+      'Mitigated severe community risk via tree removal',
+      'Maintained total FEMA documentation compliance'
+    ],
+    image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=1200'
+  },
+  {
+    title: 'Hurricane Helene — Avery County Debris',
+    client: 'Highland Property Pros, LLC',
+    locations: 'Avery County, NC',
+    desc: 'Emergency debris management and hauling operations following catastrophic hurricane impact in the mountainous terrain of Avery County.',
+    results: [
+      'Restored essential access routes for recovery teams',
+      'Managed 10,000+ cubic yards of combined debris',
+      'Coordinated logistically complex hauling cycles'
+    ],
+    image: 'https://images.unsplash.com/photo-1558403194-611308249627?auto=format&fit=crop&q=80&w=1200'
+  }
+];
+
+export default function PastPerformance() {
+  return (
+    <div className="bg-cream min-h-screen text-dark">
+      {/* Header */}
+      <section className="pt-48 pb-32 relative overflow-hidden min-h-[60vh] flex items-center">
+        <div className="absolute inset-0 z-0 bg-cream">
+          <motion.img 
+            initial={{ scale: 1.1 }}
+            animate={{ scale: 1 }}
+            transition={{ duration: 15, repeat: Infinity, repeatType: "reverse", ease: "linear" }}
+            src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=2000" 
+            className="w-full h-full object-cover brightness-[0.7] opacity-60"
+            alt="Field operations background"
+            referrerPolicy="no-referrer"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-cream/20 via-cream/60 to-cream" />
+          <div className="absolute inset-0 noise-overlay opacity-5" />
+        </div>
+        <div className="max-w-7xl mx-auto px-6 text-center relative z-10 w-full">
+          <div className="inline-flex items-center gap-6 mb-12">
+            <div className="h-[1px] w-12 bg-accent" />
+            <span className="text-accent font-bold tracking-[0.4em] text-[10px] uppercase">Record of Execution</span>
+            <div className="h-[1px] w-12 bg-accent" />
+          </div>
+          <h1 className="text-5xl md:text-[6rem] font-serif text-dark italic leading-tight">
+            Past <span className="not-italic">Performance.</span>
+          </h1>
+          <p className="mt-12 text-xl font-light text-dark/60 max-w-2xl mx-auto italic leading-relaxed">
+            "A proven track record of performance in disaster recovery and institutional environmental services. Our leadership is defined by responses to the most significant natural disasters of the decade."
+          </p>
+        </div>
+      </section>
+
+      {/* Project Case Studies */}
+      <section className="py-40 bg-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="space-y-64">
+            {projects.map((project, i) => (
+              <motion.div 
+                key={project.title}
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="grid grid-cols-1 lg:grid-cols-12 gap-24 items-center"
+              >
+                <div className={`lg:col-span-6 ${i % 2 === 1 ? 'lg:order-2' : ''}`}>
+                  <div className="p-4 border border-accent/20 relative group bg-cream/20">
+                    <div className="aspect-[16/10] overflow-hidden grayscale group-hover:grayscale-0 transition-all duration-1000">
+                      <img src={project.image} className="w-full h-full object-cover brightness-95" alt={project.title} referrerPolicy="no-referrer" />
+                    </div>
+                    {/* Floating Label */}
+                    <div className="absolute -bottom-6 -right-6 bg-white text-dark p-6 shadow-2xl border border-accent/20">
+                      <div className="text-[9px] font-bold tracking-[0.4em] text-accent uppercase mb-1">Timeline</div>
+                      <div className="font-serif italic text-dark/90">2024–2025 Response</div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className={`lg:col-span-6 ${i % 2 === 1 ? 'lg:order-1 text-right' : ''}`}>
+                  <h2 className="text-4xl md:text-5xl font-serif text-dark mb-8 italic leading-tight">
+                    {project.title.split('—')[0]} <br/>
+                    <span className="not-italic text-accent">— {project.title.split('—')[1]}</span>
+                  </h2>
+                  
+                  <div className={`flex flex-wrap gap-8 mb-10 text-[10px] font-bold uppercase tracking-[0.3em] text-accent ${i % 2 === 1 ? 'justify-end' : ''}`}>
+                    <span className="flex items-center gap-3"><MapPin size={16} /> {project.locations}</span>
+                    <span className="flex items-center gap-3"><ChevronRight size={16} /> {project.client}</span>
+                  </div>
+                  
+                  <p className="text-lg text-dark/60 mb-10 leading-relaxed font-light">
+                    {project.desc}
+                  </p>
+                  
+                  <div className={`space-y-6 py-10 border-y border-accent/10 ${i % 2 === 1 ? 'items-end' : ''}`}>
+                    <h4 className="text-[10px] font-bold tracking-[0.4em] text-dark uppercase">Mission Outcomes:</h4>
+                    <div className={`space-y-4 ${i % 2 === 1 ? 'flex flex-col items-end' : ''}`}>
+                    {project.results.map(res => (
+                      <div key={res} className="flex gap-4 text-dark/50 font-light italic">
+                        <CheckCircle2 className="text-accent shrink-0" size={18} />
+                        <span>{res}</span>
+                      </div>
+                    ))}
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Institutional Engagement CTA */}
+      <section className="py-40 bg-cream">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <div className="w-[1px] h-24 bg-accent mx-auto mb-12" />
+          <h2 className="text-4xl md:text-6xl font-serif text-dark mb-12 italic leading-tight">
+             Engage our <span className="not-italic text-accent">Operational</span> Capacity.
+          </h2>
+          <p className="text-xl text-dark/60 font-light mb-16 leading-relaxed">
+            Excelous is ready for rapid mobilization and systematic execution across municipal, state, and federal environments.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-8 justify-center items-center">
+            <Link 
+              to="/contact" 
+              className="bg-dark text-white px-12 py-6 text-[11px] font-bold uppercase tracking-[0.4em] hover:bg-accent transition-colors shadow-2xl"
+            >
+              Request Consultation
+            </Link>
+            <Link 
+              to="/industries" 
+              className="text-dark text-[11px] font-bold uppercase tracking-[0.4em] border-b border-accent pb-2 hover:text-accent transition-colors"
+            >
+              Capability Statement
+            </Link>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}

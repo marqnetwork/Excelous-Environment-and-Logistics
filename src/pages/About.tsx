@@ -1,0 +1,149 @@
+import { motion } from 'motion/react';
+import { Award, Briefcase, GraduationCap, Globe, ShieldCheck, Heart } from 'lucide-react';
+
+export default function About() {
+  return (
+    <div className="bg-cream min-h-screen text-dark">
+      {/* Editorial Intro */}
+      <section className="pt-48 pb-32 relative overflow-hidden min-h-[60vh] flex items-center">
+        <div className="absolute inset-0 z-0 bg-cream">
+          <motion.img 
+            initial={{ scale: 1.15 }}
+            animate={{ scale: 1 }}
+            transition={{ duration: 20, repeat: Infinity, repeatType: "reverse", ease: "linear" }}
+            src="https://images.unsplash.com/photo-1497366858526-0755928d9f83?auto=format&fit=crop&q=80&w=2000" 
+            className="w-full h-full object-cover brightness-[0.7] opacity-50"
+            alt="Office background"
+            referrerPolicy="no-referrer"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-cream/20 via-cream/60 to-cream" />
+          <div className="absolute inset-0 noise-overlay opacity-5" />
+        </div>
+        <div className="max-w-7xl mx-auto px-6 text-center relative z-10 w-full">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+          >
+            <div className="inline-flex items-center gap-6 mb-12">
+              <div className="h-[1px] w-12 bg-accent" />
+              <span className="text-accent font-bold tracking-[0.4em] text-[10px] uppercase">A Legacy of Service</span>
+              <div className="h-[1px] w-12 bg-accent" />
+            </div>
+            <h1 className="text-5xl md:text-[6rem] mb-12 font-serif text-dark italic leading-tight">
+              Institutional <span className="not-italic">Integrity.</span> <br/>
+              Field <span className="not-italic text-accent">Dedication.</span>
+            </h1>
+            <div className="max-w-3xl mx-auto border-t border-accent/20 pt-16 mt-16">
+              <p className="text-2xl font-serif text-dark mb-10 leading-relaxed italic">
+                "Established as the environmental and logistics division of Excelous, LLC—a firm defined by its record of performance for the most demanding federal agencies."
+              </p>
+              <p className="text-lg font-light text-dark/70 leading-relaxed max-w-2xl mx-auto">
+                Excelous Environmental & Logistics brings thirty years of executive leadership and field-proven capability to the critical task of maintaining institutional infrastructure and responding to environmental crises.
+              </p>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Leadership Portrait */}
+      <section className="py-40 bg-white text-dark overflow-hidden shadow-sm">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-24 items-center">
+            <div className="lg:col-span-6">
+              <div className="p-4 border border-accent/30 bg-cream">
+                <div className="aspect-[4/5] bg-cream relative overflow-hidden grayscale group">
+                   <div className="absolute inset-0 flex items-center justify-center text-accent/20 font-serif text-3xl uppercase tracking-widest text-center px-10">
+                    Karen Swain<br/>CEO Bio Portrait
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="lg:col-span-6">
+              <div className="inline-block border-l-4 border-accent pl-8 mb-10">
+                <h2 className="text-4xl md:text-6xl font-serif mb-2 italic text-accent">Karen Swain</h2>
+                <p className="text-[10px] font-bold tracking-[0.4em] uppercase text-dark/40">Founder & Chief Executive Officer</p>
+              </div>
+              <div className="space-y-8 font-light text-dark/70 leading-relaxed text-lg">
+                <p>
+                  A graduate of Florida A&M University's School of Business and Industry and an MBA from Clark Atlanta University, Karen brings over 30 years of leadership experience from the heights of global management consulting—including roles at Deloitte, IBM, and BearingPoint.
+                </p>
+                <p>
+                  Under her stewardship, Excelous has evolved from a boutique consultancy into a multi-certified federal contractor, with deep operational roots in disaster recovery and institutional environmental services throughout the American Southeast.
+                </p>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 pt-12 border-t border-accent/10 mt-12">
+                  <div className="flex gap-6 items-start">
+                    <Briefcase className="text-accent shrink-0" size={24} />
+                    <div>
+                      <h4 className="text-accent font-bold text-[10px] uppercase tracking-widest mb-1">Executive Leadership</h4>
+                      <p className="text-sm">30+ Years Consulting Experience</p>
+                    </div>
+                  </div>
+                  <div className="flex gap-6 items-start">
+                    <GraduationCap className="text-accent shrink-0" size={24} />
+                    <div>
+                      <h4 className="text-accent font-bold text-[10px] uppercase tracking-widest mb-1">Advanced Education</h4>
+                      <p className="text-sm">MBA, Clark Atlanta University</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Values - Traditional Flow */}
+      <section className="py-40 bg-cream/30">
+        <div className="max-w-7xl mx-auto px-6 text-center mb-32">
+          <h2 className="text-4xl md:text-6xl font-serif text-dark italic">The Pillars of <span className="text-accent not-italic">Excelous.</span></h2>
+          <div className="w-24 h-[1px] bg-accent mx-auto mt-8" />
+        </div>
+        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16">
+          {[
+            { title: 'Customer Commitment', desc: 'Developing long-term relationships defined by deep institutional knowledge and unwavering reliability.', icon: <Heart size={32} /> },
+            { title: 'Quality of Performance', desc: 'Excellence is not measured by compliance alone, but by the tangible impact of our field operations.', icon: <ShieldCheck size={32} /> },
+            { title: 'Team Expertise', desc: 'Investing in specialized field training to ensure our teams are prepared for any environmental contingency.', icon: <Award size={32} /> },
+            { title: 'Institutional Trust', desc: 'Bringing the professional standards of federal contracting to local and regional service requests.', icon: <Globe size={32} /> }
+          ].map((v, i) => (
+            <motion.div 
+              key={v.title}
+              whileHover={{ y: -5 }}
+              className="border border-accent/20 p-16 text-center group bg-white shadow-sm"
+            >
+              <div className="text-accent mb-10 flex justify-center">{v.icon}</div>
+              <h4 className="text-2xl font-serif text-dark mb-6">{v.title}</h4>
+              <p className="text-dark/60 font-light leading-relaxed max-w-sm mx-auto">{v.desc}</p>
+            </motion.div>
+          ))}
+        </div>
+      </section>
+
+      {/* Credentials Registry */}
+      <section className="py-40 bg-white">
+        <div className="max-w-5xl mx-auto px-6">
+          <div className="border border-accent/20 p-12 md:p-24 relative bg-cream/20">
+            <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-accent text-white px-8 py-2">
+              <ShieldCheck size={32} />
+            </div>
+            <h2 className="text-3xl font-serif text-dark mb-16 text-center italic">Corporate <span className="not-italic">Credentials</span></h2>
+            <div className="space-y-10">
+              {[
+                { label: 'Federal Designations', value: 'SBA 8(a) Certified Small Business • EDWOSB Firm' },
+                { label: 'Diverse Enterprises', value: 'MBE/DBE Certified (GA, TN, PA, MO, IL, MD, MA)' },
+                { label: 'Major Vehicles', value: 'GSA MAS Schedule Holder (47QTCA19D00KK) • SAM.gov' },
+                { label: 'NAICS Compliance', value: '562910, 541611, 562119, 561210' },
+                { label: 'Quality Controls', value: 'ISO 9000 Alignment • Project Management Professional (PMP)' }
+              ].map(item => (
+                <div key={item.label} className="grid grid-cols-1 md:grid-cols-3 gap-4 border-b border-accent/10 pb-6">
+                  <div className="text-[10px] font-bold uppercase tracking-[0.3em] text-accent">{item.label}</div>
+                  <div className="md:col-span-2 text-dark font-serif italic text-lg">{item.value}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
