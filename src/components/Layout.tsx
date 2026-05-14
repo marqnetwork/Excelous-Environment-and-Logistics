@@ -44,7 +44,7 @@ export function Header() {
     >
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center pb-4">
         <Link to="/" className="flex flex-col items-center gap-1 group">
-          <img src="https://marqnetworks.co/wp-content/uploads/2026/05/ECHS-logo.png" alt="ECHS Logo" className="w-50 object-contain p-0.5" />
+          <img src="https://marqnetworks.co/wp-content/uploads/2026/05/White-Logo-bg-removed-2-e1778793613961.png" alt="ECHS Logo" className="w-50 object-contain p-0.5" />
         </Link>
 
         {/* Desktop Nav */}
