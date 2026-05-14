@@ -44,12 +44,7 @@ export function Header() {
     >
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center pb-4">
         <Link to="/" className="flex flex-col items-center gap-1 group">
-          <span className={`text-3xl md:text-5xl font-serif tracking-[0.3em] transition-all duration-700 leading-none ${logoMainColor}`}>
-            EXCELOUS
-          </span>
-          <span className={`text-[8px] tracking-[0.6em] font-bold uppercase transition-all duration-700 ${logoSubColor}`}>
-            Environmental & Logistics
-          </span>
+          <img src="https://marqnetworks.co/wp-content/uploads/2026/05/ECHS-logo.png" alt="ECHS Logo" className="w-50 object-contain p-0.5" />
         </Link>
 
         {/* Desktop Nav */}
