@@ -107,7 +107,7 @@ export default function Home() {
               </motion.div>
               <div className="order-1 lg:order-2 p-4 border border-accent/20">
                 <div className="h-[500px] overflow-hidden grayscale hover:grayscale-0 transition-all duration-1000">
-                   <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=1200" className="w-full h-full object-cover" alt="Heavy equipment" referrerPolicy="no-referrer" />
+                   <img src="https://marqnetworks.co/wp-content/uploads/2026/05/2.png" className="w-full h-full object-cover" alt="Heavy equipment" referrerPolicy="no-referrer" />
                 </div>
               </div>
             </div>
@@ -116,7 +116,7 @@ export default function Home() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
               <div className="p-4 border border-accent/20">
                 <div className="h-[500px] overflow-hidden grayscale hover:grayscale-0 transition-all duration-1000">
-                   <img src="https://images.unsplash.com/photo-1558403194-611308249627?auto=format&fit=crop&q=80&w=1200" className="w-full h-full object-cover" alt="Industrial service" referrerPolicy="no-referrer" />
+                   <img src="https://marqnetworks.co/wp-content/uploads/2026/05/1.png" className="w-full h-full object-cover" alt="Industrial service" referrerPolicy="no-referrer" />
                 </div>
               </div>
               <motion.div 
