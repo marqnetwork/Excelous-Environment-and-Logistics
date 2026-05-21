@@ -13,7 +13,7 @@ const projects = [
       'Protected road infrastructure and reduced potential flood risks from obstructed water flow.',
       'Earned commendations for precision and attention to environmental detail.'
     ],
-    image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=1200'
+    image: 'https://excelous.net/wp-content/uploads/2025/05/DR-Image-768x580.webp'
   },
   {
     title: 'Debris Removal and Hauling',
@@ -26,7 +26,7 @@ const projects = [
       'Met aggressive recovery deadlines.',
       'Established Excelous as a trusted resource for rural storm response operations.'
     ],
-    image: 'https://images.unsplash.com/photo-1558403194-611308249627?auto=format&fit=crop&q=80&w=1200'
+    image: 'https://marqnetworks.co/wp-content/uploads/2026/05/EL-Pic-11.jpg'
   },
   {
     title: 'Disaster Recovery Tree Removal Support',
