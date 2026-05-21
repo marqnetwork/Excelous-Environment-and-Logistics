@@ -34,7 +34,7 @@ export default function Home() {
             </div>
             
             <h1 className="text-6xl md:text-[7rem] mb-12 leading-tight font-serif text-white italic">
-              Where Federal <span className="text-accent not-italic">Integrity</span> <br/>
+              Where <span className="text-accent not-italic">Integrity</span> <br/>
               Meets <span className="not-italic">Field</span> Performance.
             </h1>
 
@@ -44,16 +44,10 @@ export default function Home() {
             
             <div className="flex flex-col sm:flex-row gap-8 justify-center items-center">
               <Link 
-                to="/contact" 
+                to="/" 
                 className="bg-primary text-white px-12 py-5 text-[11px] font-bold uppercase tracking-[0.3em] hover:bg-accent transition-all duration-500 shadow-2xl"
               >
-                Request Consultation
-              </Link>
-              <Link 
-                to="/about" 
-                className="text-white text-[11px] font-bold uppercase tracking-[0.3em] hover:text-accent transition-colors flex items-center gap-3 border-b border-accent pb-1"
-              >
-                Our Legacy <ArrowRight size={14} />
+                Capability Statement
               </Link>
             </div>
           </motion.div>
@@ -106,7 +100,7 @@ export default function Home() {
                 <div className="text-accent font-bold tracking-[0.4em] text-[10px] uppercase mb-6 flex items-center gap-4">
                    <div className="w-8 h-[1px] bg-accent" /> SERVICE 01
                 </div>
-                <h3 className="text-4xl md:text-6xl font-serif text-white mb-8 italic">Debris <span className="not-italic text-accent">Removal</span> & Recovery.</h3>
+                <h3 className="text-4xl md:text-6xl font-serif text-white mb-8 italic">Debris <span className="not-italic text-accent">Removal</span> & Disaster Recovery.</h3>
                 <p className="text-lg text-white/60 mb-10 leading-relaxed font-light">
                   When disaster strikes, community recovery depends on rapid, systematic debris removal. We specialize in FEMA-compliant operations across the Southeast, restoring safety and order following catastrophic events.
                 </p>
