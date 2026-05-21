@@ -45,10 +45,11 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-8 justify-center items-center">
               <Link 
                 to="/" 
-                className="bg-primary text-white px-12 py-5 text-[11px] font-bold uppercase tracking-[0.3em] hover:bg-accent transition-all duration-500 shadow-2xl"
+                className="text-white text-[11px] font-bold uppercase tracking-[0.3em] hover:text-accent transition-colors flex items-center gap-3 border-b border-accent pb-1"
               >
-                Capability Statement
+                Capability Statement <ArrowRight size={14} />
               </Link>
+              
             </div>
           </motion.div>
         </div>
