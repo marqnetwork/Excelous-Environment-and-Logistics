@@ -129,7 +129,7 @@ export default function Home() {
                 <div className="text-accent font-bold tracking-[0.4em] text-[10px] uppercase mb-6 flex items-center gap-4">
                    <div className="w-8 h-[1px] bg-accent" /> SERVICE 02
                 </div>
-                <h3 className="text-4xl md:text-6xl font-serif text-white mb-8 italic">Grease Trap <span className="not-italic text-accent">Cleaning</span> & Management.</h3>
+                <h3 className="text-4xl md:text-6xl font-serif text-white mb-8 italic">Grease Trap <span className="not-italic text-accent">Cleaning</span> Services.</h3>
                 <p className="text-lg text-white/60 mb-10 leading-relaxed font-light">
                   Providing turnkey grease trap solutions for the institutional and commercial sectors. Our scheduled maintenance programs ensure total compliance, odor-free environments, and smooth operational flow.
                 </p>
