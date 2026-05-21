@@ -87,18 +87,7 @@ export default function PastPerformance() {
                 viewport={{ once: true }}
                 className="grid grid-cols-1 lg:grid-cols-12 gap-24 items-center"
               >
-                <div className={`lg:col-span-6 ${i % 2 === 1 ? 'lg:order-2' : ''}`}>
-                  <div className="p-4 border border-accent/20 relative group bg-cream/20">
-                    <div className="aspect-[16/10] overflow-hidden grayscale group-hover:grayscale-0 transition-all duration-1000">
-                      <img src={project.image} className="w-full h-full object-cover brightness-95" alt={project.title} referrerPolicy="no-referrer" />
-                    </div>
-                    {/* Floating Label */}
-                    <div className="absolute -bottom-6 -right-6 bg-white text-dark p-6 shadow-2xl border border-accent/20">
-                      <div className="text-[9px] font-bold tracking-[0.4em] text-accent uppercase mb-1">Timeline</div>
-                      <div className="font-serif italic text-dark/90">2024–2025 Response</div>
-                    </div>
-                  </div>
-                </div>
+                
                 
                 <div className={`lg:col-span-6 ${i % 2 === 1 ? 'lg:order-1 text-right' : ''}`}>
                   <h2 className="text-4xl md:text-5xl font-serif text-dark mb-8 italic leading-tight">
