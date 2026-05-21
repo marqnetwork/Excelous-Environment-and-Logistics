@@ -41,7 +41,7 @@ export default function DebrisRemoval() {
               <div className="h-[1px] w-12 bg-accent" />
             </div>
             <h1 className="text-5xl md:text-[6rem] mb-12 font-serif italic text-dark leading-tight">
-              Rapid Debris <span className="not-italic">Recovery.</span> <br/>
+              Rapid Debris <span className="not-italic">Removal.</span> <br/>
               Institutional <span className="not-italic text-accent">Scale.</span>
             </h1>
             <p className="text-xl text-dark/60 max-w-2xl mx-auto font-light leading-relaxed mb-16 italic">
