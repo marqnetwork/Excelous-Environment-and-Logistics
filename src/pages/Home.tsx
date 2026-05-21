@@ -131,7 +131,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-4xl md:text-6xl font-serif text-white mb-8 italic">Grease Trap <span className="not-italic text-accent">Cleaning</span> Services.</h3>
                 <p className="text-lg text-white/60 mb-10 leading-relaxed font-light">
-                  Providing turnkey grease trap solutions for the institutional and commercial sectors. Our scheduled maintenance programs ensure total compliance, odor-free environments, and smooth operational flow.
+                  Excelous provides professional grease trap cleaning and maintenance services for commercial, municipal, and industrial facilities. Our services include grease trap pumping, waste removal, preventative maintenance, inspections, and environmental compliance support to help clients maintain safe, efficient, and compliant operations.
                 </p>
                 <Link to="/services/grease-trap" className="inline-flex items-center gap-4 text-[10px] font-bold uppercase tracking-[0.3em] text-accent border-b border-accent pb-2 hover:text-white transition-colors">
                   View Solutions <ArrowRight size={14} />
