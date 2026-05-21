@@ -181,8 +181,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-20">
         <div className="lg:col-span-4 text-center lg:text-left flex flex-col items-center lg:items-start">
           <Link to="/" className="flex flex-col items-center lg:items-start gap-2 mb-10 group">
-            <span className="text-4xl font-serif tracking-[0.2em] text-accent uppercase leading-none">EXCELOUS</span>
-            <span className="text-[9px] tracking-[0.5em] font-bold text-white/50 uppercase">Environmental & Logistics</span>
+            <img src="https://marqnetworks.co/wp-content/uploads/2026/05/White-Logo-bg-removed-2-e1778793613961.png" alt="ECHS Logo" className="w-50 object-contain p-0.5" />
           </Link>
           <p className="font-serif italic text-xl text-white/70 mb-10 max-w-sm">
             "When the environment demands a solution, we deliver excellence."
