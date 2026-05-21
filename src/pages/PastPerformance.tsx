@@ -38,7 +38,7 @@ const projects = [
       'Safely removed hazardous trees, reducing risks to residents and infrastructure.',
       'Supported FEMA’s disaster recovery mission with efficient and environmentally responsible debris management.'
     ],
-    image: 'https://images.unsplash.com/photo-1558403194-611308249627?auto=format&fit=crop&q=80&w=1200'
+    image: 'https://marqnetworks.co/wp-content/uploads/2026/05/EL-Pic-11.jpg'
   }
 ];
 
