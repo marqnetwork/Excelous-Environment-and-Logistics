@@ -141,22 +141,8 @@ export default function PastPerformance() {
              Engage our <span className="not-italic text-accent">Operational</span> Capacity.
           </h2>
           <p className="text-xl text-dark/60 font-light mb-16 leading-relaxed">
-            Excelous is ready for rapid mobilization and systematic execution across municipal, state, and federal environments.
+            Excelous Environmental & Logistics is ready for rapid mobilization and systematic execution across municipal, state, and federal environments.
           </p>
-          <div className="flex flex-col sm:flex-row gap-8 justify-center items-center">
-            <Link 
-              to="/contact" 
-              className="bg-dark text-white px-12 py-6 text-[11px] font-bold uppercase tracking-[0.4em] hover:bg-accent transition-colors shadow-2xl"
-            >
-              Request Consultation
-            </Link>
-            <Link 
-              to="/industries" 
-              className="text-dark text-[11px] font-bold uppercase tracking-[0.4em] border-b border-accent pb-2 hover:text-accent transition-colors"
-            >
-              Capability Statement
-            </Link>
-          </div>
         </div>
       </section>
     </div>
