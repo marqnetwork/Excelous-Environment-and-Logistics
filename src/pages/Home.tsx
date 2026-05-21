@@ -141,7 +141,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-6 text-center">
           <Quote size={48} className="text-accent mx-auto mb-12 opacity-50" />
           <h2 className="text-3xl md:text-5xl font-serif text-white italic leading-tight mb-12">
-            "At Excelous, we don't just clear paths or pump lines. We restore the foundations that allow businesses and communities to thrive. Our legacy is built on the trust of the agencies we serve and the results we deliver in the field."
+            "At Excelous Environmental & Logistics, we don't just clear paths or pump lines. We restore the foundations that allow businesses and communities to thrive. Our legacy is built on the trust of the agencies we serve and the results we deliver in the field."
           </h2>
           <div className="flex flex-col items-center">
             <div className="w-[1px] h-12 bg-accent mb-6" />
