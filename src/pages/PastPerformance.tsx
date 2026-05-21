@@ -4,26 +4,39 @@ import { Link } from 'react-router-dom';
 
 const projects = [
   {
-    title: 'Hurricane Helene & Milton — Support',
-    client: 'Ceres Environmental (Prime Contractor)',
-    locations: 'NC, KY, FL',
-    desc: 'Rapid mobilization of certified crews and heavy machinery for systematic hazardous tree assessment and prioritized removal across multiple state jurisdictions.',
+    title: 'Debris Removal and Hauling',
+    client: 'Highland Property Pros, LLC',
+    locations: 'Beech Mountain Area, NC',
+    desc: 'Excelous responded with experienced crews and terrain-appropriate equipment.',
     results: [
-      'Cleared critical roadways and transit corridors',
-      'Mitigated severe community risk via tree removal',
-      'Maintained total FEMA documentation compliance'
+      'Completed safe removal and site cleanup under challenging terrain conditions.',
+      'Protected road infrastructure and reduced potential flood risks from obstructed water flow.',
+      'Earned commendations for precision and attention to environmental detail.'
     ],
     image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=1200'
   },
   {
-    title: 'Hurricane Helene — Avery County Debris',
+    title: 'Debris Removal and Hauling',
     client: 'Highland Property Pros, LLC',
     locations: 'Avery County, NC',
-    desc: 'Emergency debris management and hauling operations following catastrophic hurricane impact in the mountainous terrain of Avery County.',
+    desc: 'Excelous was contracted to execute comprehensive storm debris removal operations across Avery County.',
     results: [
-      'Restored essential access routes for recovery teams',
-      'Managed 10,000+ cubic yards of combined debris',
-      'Coordinated logistically complex hauling cycles'
+      'Removed high-risk debris efficiently, preventing blockages and erosion hazards.',
+      'Enabled a faster return to public services and travel infrastructure.',
+      'Met aggressive recovery deadlines.',
+      'Established Excelous as a trusted resource for rural storm response operations.'
+    ],
+    image: 'https://images.unsplash.com/photo-1558403194-611308249627?auto=format&fit=crop&q=80&w=1200'
+  },
+  {
+    title: 'Disaster Recovery Tree Removal Support',
+    client: 'Ceres Environmental',
+    locations: 'Multiple',
+    desc: 'Excelous provided disaster recovery support by deploying skilled teams to assess, cut, and remove fallen trees in affected areas.',
+    results: [
+      'Cleared critical roadways and public access points, accelerating recovery efforts.',
+      'Safely removed hazardous trees, reducing risks to residents and infrastructure.',
+      'Supported FEMA’s disaster recovery mission with efficient and environmentally responsible debris management.'
     ],
     image: 'https://images.unsplash.com/photo-1558403194-611308249627?auto=format&fit=crop&q=80&w=1200'
   }
