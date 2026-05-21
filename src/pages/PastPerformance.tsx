@@ -52,7 +52,7 @@ export default function PastPerformance() {
             initial={{ scale: 1.1 }}
             animate={{ scale: 1 }}
             transition={{ duration: 15, repeat: Infinity, repeatType: "reverse", ease: "linear" }}
-            src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=2000" 
+            src="https://excelous.net/wp-content/uploads/2025/03/disaster-banner-new.png" 
             className="w-full h-full object-cover brightness-[0.7] opacity-60"
             alt="Field operations background"
             referrerPolicy="no-referrer"
