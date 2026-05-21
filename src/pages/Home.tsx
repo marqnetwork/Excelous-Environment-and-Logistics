@@ -97,9 +97,6 @@ export default function Home() {
                 whileInView={{ opacity: 1, x: 0 }}
                 className="order-2 lg:order-1"
               >
-                <div className="text-accent font-bold tracking-[0.4em] text-[10px] uppercase mb-6 flex items-center gap-4">
-                   <div className="w-8 h-[1px] bg-accent" /> SERVICE 01
-                </div>
                 <h3 className="text-4xl md:text-6xl font-serif text-white mb-8 italic">Debris <span className="not-italic text-accent">Removal</span> & Disaster Recovery.</h3>
                 <p className="text-lg text-white/60 mb-10 leading-relaxed font-light">
                   Excelous provides Disaster Recovery and Debris Removal support services for federal, state, local, and commercial clients following natural disasters and emergency events. Our capabilities include debris removal, hauling, site cleanup, emergency logistics, workforce deployment, and recovery operations support. We deliver rapid response, scalable staffing, and coordinated recovery solutions to help restore safety, accessibility, and operational continuity.
@@ -126,9 +123,6 @@ export default function Home() {
                 initial={{ opacity: 0, x: 30 }}
                 whileInView={{ opacity: 1, x: 0 }}
               >
-                <div className="text-accent font-bold tracking-[0.4em] text-[10px] uppercase mb-6 flex items-center gap-4">
-                   <div className="w-8 h-[1px] bg-accent" /> SERVICE 02
-                </div>
                 <h3 className="text-4xl md:text-6xl font-serif text-white mb-8 italic">Grease Trap <span className="not-italic text-accent">Cleaning</span> Services.</h3>
                 <p className="text-lg text-white/60 mb-10 leading-relaxed font-light">
                   Excelous provides professional grease trap cleaning and maintenance services for commercial, municipal, and industrial facilities. Our services include grease trap pumping, waste removal, preventative maintenance, inspections, and environmental compliance support to help clients maintain safe, efficient, and compliant operations.
