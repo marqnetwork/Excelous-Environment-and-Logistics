@@ -36,10 +36,7 @@ export default function About() {
             </h1>
             <div className="max-w-3xl mx-auto border-t border-accent/20 pt-16 mt-16">
               <p className="text-2xl font-serif text-dark mb-10 leading-relaxed italic">
-                "Established as the environmental and logistics division of Excelous, LLC—a firm defined by its record of performance for the most demanding agencies."
-              </p>
-              <p className="text-lg font-light text-dark/70 leading-relaxed max-w-2xl mx-auto">
-                Excelous Environmental & Logistics brings executive leadership and field-proven capability to the critical task of maintaining institutional infrastructure and responding to environmental crises.
+                "Established as the environmental and logistics division. Excelous Environmental & Logistics brings executive leadership and field-proven capability to the critical task of maintaining institutional infrastructure and responding to environmental crises. "
               </p>
             </div>
           </motion.div>
@@ -104,7 +101,7 @@ export default function About() {
             { title: 'Customer Commitment', desc: 'Developing long-term relationships defined by deep institutional knowledge and unwavering reliability.', icon: <Heart size={32} /> },
             { title: 'Quality of Performance', desc: 'Excellence is not measured by compliance alone, but by the tangible impact of our field operations.', icon: <ShieldCheck size={32} /> },
             { title: 'Team Expertise', desc: 'Investing in specialized field training to ensure our teams are prepared for any environmental contingency.', icon: <Award size={32} /> },
-            { title: 'Institutional Trust', desc: 'Bringing the professional standards of federal contracting to local and regional service requests.', icon: <Globe size={32} /> }
+            { title: 'Institutional Trust', desc: 'Bringing the professional standards of contracting to local and regional service requests.', icon: <Globe size={32} /> }
           ].map((v, i) => (
             <motion.div 
               key={v.title}
