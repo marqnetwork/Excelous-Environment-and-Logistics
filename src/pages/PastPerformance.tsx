@@ -87,6 +87,13 @@ export default function PastPerformance() {
                 viewport={{ once: true }}
                 className="grid grid-cols-1 lg:grid-cols-12 gap-24 items-center"
               >
+                <div className={`lg:col-span-6 ${i % 2 === 1 ? 'lg:order-2' : ''}`}>
+                  <div className="p-4 border border-accent/20 relative group bg-cream/20">
+                    <div className="aspect-[16/10] overflow-hidden grayscale group-hover:grayscale-0 transition-all duration-1000">
+                      <img src={project.image} className="w-full h-full object-cover brightness-95" alt={project.title} referrerPolicy="no-referrer" />
+                    </div>
+                  </div>
+                </div>
                 
                 
                 <div className={`lg:col-span-6 ${i % 2 === 1 ? 'lg:order-1 text-right' : ''}`}>
