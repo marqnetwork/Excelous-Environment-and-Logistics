@@ -47,35 +47,35 @@ export default function About() {
       <section className="py-40 bg-white text-dark overflow-hidden shadow-sm">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-24 items-center">
-            <div className="lg:col-span-6">
-              <div className="p-4 border border-accent/30 bg-cream">
-                <div className="aspect-[4/5] bg-cream relative overflow-hidden grayscale group">
-                   <div className="absolute inset-0 flex items-center justify-center text-accent/20 font-serif text-3xl uppercase tracking-widest text-center px-10">
-                    Karen Swain<br/>CEO Bio Portrait
+              <div className="lg:col-span-6">
+                <div className="p-4 border border-accent/30 bg-cream">
+                  <div className="aspect-[4/5] bg-cream relative overflow-hidden grayscale group">
+                     <div className="absolute inset-0 flex items-center justify-center text-accent/20 font-serif text-3xl uppercase tracking-widest text-center px-10">
+                      Karen Swain<br/>CEO Bio Portrait
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="lg:col-span-6">
-              <div className="inline-block border-l-4 border-accent pl-8 mb-10">
-                <h2 className="text-4xl md:text-6xl font-serif mb-2 italic text-accent">Karen Swain</h2>
-                <p className="text-[10px] font-bold tracking-[0.4em] uppercase text-dark/40">Founder & Chief Executive Officer</p>
+              <div className="lg:col-span-6">
+                  <div className="inline-block border-l-4 border-accent pl-8 mb-10">
+                    <h2 className="text-4xl md:text-6xl font-serif mb-2 italic text-accent">Karen Swain</h2>
+                    <p className="text-[10px] font-bold tracking-[0.4em] uppercase text-dark/40">Founder & Chief Executive Officer</p>
+                  </div>
+                  <div className="space-y-8 font-light text-dark/70 leading-relaxed text-lg">
+                    <p>
+                      Excelous Environmental & Logistics (EEL) was established to support environmental services, disaster recovery, debris removal, hauling, logistics coordination, and infrastructure support operations across commercial, institutional, and public sector environments.
+                    </p>
+                    <p>
+                      Our leadership team brings field-proven experience supporting disaster recovery operations, debris hauling and removal, environmental services, grease trap maintenance support, workforce deployment, and large-scale operational response initiatives through prior contracts, partnerships, and teaming relationships.
+                    </p>
+                    <p>
+                      EEL was created to provide a dedicated focus on environmental operations, recovery services, logistics support, and infrastructure maintenance while continuing to build upon the operational experience, leadership, and project capabilities established through years of project execution and industry support.
+                    </p>
+                    <p>
+                      Today, EEL remains focused on rapid response, scalable operations, safety, compliance, and dependable service delivery for clients requiring responsive environmental and operational support solutions.
+                    </p>
+                  </div>
               </div>
-              <div className="space-y-8 font-light text-dark/70 leading-relaxed text-lg">
-                <p>
-                  Excelous Environmental & Logistics (EEL) was established to support environmental services, disaster recovery, debris removal, hauling, logistics coordination, and infrastructure support operations across commercial, institutional, and public sector environments.
-                </p>
-                <p>
-                  Our leadership team brings field-proven experience supporting disaster recovery operations, debris hauling and removal, environmental services, grease trap maintenance support, workforce deployment, and large-scale operational response initiatives through prior contracts, partnerships, and teaming relationships.
-                </p>
-                <p>
-                  EEL was created to provide a dedicated focus on environmental operations, recovery services, logistics support, and infrastructure maintenance while continuing to build upon the operational experience, leadership, and project capabilities established through years of project execution and industry support.
-                </p>
-                <p>
-                  Today, EEL remains focused on rapid response, scalable operations, safety, compliance, and dependable service delivery for clients requiring responsive environmental and operational support solutions.
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -105,6 +105,6 @@ export default function About() {
           ))}
         </div>
       </section>
-    </div>
+    
   );
 }
