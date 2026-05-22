@@ -179,7 +179,7 @@ export function Footer() {
   return (
     <footer className="bg-surface text-white pt-32 pb-12 border-t border-accent/20">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-20">
-        <div className="lg:col-span-4 text-center lg:text-left flex flex-col items-center lg:items-start">
+        <div className="lg:col-span-5 text-center lg:text-left flex flex-col items-center lg:items-start">
           <Link to="/" className="flex flex-col items-center lg:items-start gap-2 mb-10 group">
             <img src="https://marqnetworks.co/wp-content/uploads/2026/05/White-Logo-bg-removed-2-e1778793613961.png" alt="ECHS Logo" className="w-50 object-contain p-0.5" />
           </Link>
@@ -193,7 +193,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="lg:col-span-2">
+        <div className="lg:col-span-3">
           <h4 className="text-[10px] font-bold uppercase tracking-[0.4em] text-accent mb-10">Solutions</h4>
           <ul className="space-y-6 text-sm font-medium tracking-widest text-white/60">
             <li><Link to="/services/debris-removal" className="hover:text-accent transition-colors">DEBRIS REMOVAL</Link></li>
@@ -203,7 +203,7 @@ export function Footer() {
           </ul>
         </div>
 
-        <div className="lg:col-span-2">
+        <div className="lg:col-span-3">
           <h4 className="text-[10px] font-bold uppercase tracking-[0.4em] text-accent mb-10">Company</h4>
           <ul className="space-y-6 text-sm font-medium tracking-widest text-white/60">
             <li><Link to="/projects" className="hover:text-accent transition-colors">PROJECTS</Link></li>
