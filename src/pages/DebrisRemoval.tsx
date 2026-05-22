@@ -105,7 +105,7 @@ export default function DebrisRemoval() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-24 items-center">
             <div className="lg:col-span-12 mb-12">
                <div className="text-accent font-bold tracking-[0.4em] text-[10px] uppercase mb-4">Past Performance Highlights</div>
-               <h2 className="text-4xl md:text-[4rem] font-serif text-dark italic leading-tight">Field proven recovery<br/>operations <span className="not-italic">.</span></h2>
+               <h2 className="text-4xl md:text-[4rem] font-serif text-dark italic leading-tight">Field proven recovery<br/>operations.</h2>
             </div>
             <div className="lg:col-span-7">
                <div className="p-4 border border-accent/20 mb-8 lg:mb-0 bg-cream/20">
