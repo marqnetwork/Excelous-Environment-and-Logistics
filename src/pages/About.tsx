@@ -74,22 +74,6 @@ export default function About() {
                 <p>
                   Today, EEL remains focused on rapid response, scalable operations, safety, compliance, and dependable service delivery for clients requiring responsive environmental and operational support solutions.
                 </p>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 pt-12 border-t border-accent/10 mt-12">
-                  <div className="flex gap-6 items-start">
-                    <Briefcase className="text-accent shrink-0" size={24} />
-                    <div>
-                      <h4 className="text-accent font-bold text-[10px] uppercase tracking-widest mb-1">Executive Leadership</h4>
-                      <p className="text-sm">30+ Years Consulting Experience</p>
-                    </div>
-                  </div>
-                  <div className="flex gap-6 items-start">
-                    <GraduationCap className="text-accent shrink-0" size={24} />
-                    <div>
-                      <h4 className="text-accent font-bold text-[10px] uppercase tracking-widest mb-1">Advanced Education</h4>
-                      <p className="text-sm">MBA, Clark Atlanta University</p>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -99,7 +83,7 @@ export default function About() {
       {/* Values - Traditional Flow */}
       <section className="py-40 bg-cream/30">
         <div className="max-w-7xl mx-auto px-6 text-center mb-32">
-          <h2 className="text-4xl md:text-6xl font-serif text-dark italic">The Pillars of <span className="text-accent not-italic">Excelous.</span></h2>
+          <h2 className="text-4xl md:text-6xl font-serif text-dark italic">The Pillars of </br> <span className="text-accent not-italic">Excelous Environmental & Logistics.</span></h2>
           <div className="w-24 h-[1px] bg-accent mx-auto mt-8" />
         </div>
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16">
