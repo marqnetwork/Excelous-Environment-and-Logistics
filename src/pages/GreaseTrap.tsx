@@ -87,7 +87,7 @@ export default function GreaseTrap() {
       <section className="py-40 bg-cream/30 border-y border-accent/10">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-32">
-            <h2 className="text-4xl md:text-6xl font-serif text-dark italic">Operational <span className="text-accent not-italic">Capacities.</span></h2>
+            <h2 className="text-4xl md:text-6xl font-serif text-dark italic">Operational <span className="text-accent not-italic">Capabilities.</span></h2>
             <div className="w-24 h-[1px] bg-accent mx-auto mt-8" />
           </div>
 
@@ -122,10 +122,10 @@ export default function GreaseTrap() {
             </div>
             <div className="lg:col-span-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 text-center">
               {[
-                { label: 'Hotels & Hospitality', img: 'https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&q=80&w=800' },
-                { label: 'Universities & Schools', img: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=800' },
-                { label: 'Healthcare & Hospitals', img: 'https://images.unsplash.com/photo-1538108197017-c1b44c797bff?auto=format&fit=crop&q=80&w=800' },
-                { label: 'Corporate Hubs', img: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800' },
+                { label: 'Hotels & Hospitality', img: 'https://marqnetworks.co/wp-content/uploads/2026/05/hotel.jpg' },
+                { label: 'Universities & Schools', img: 'https://marqnetworks.co/wp-content/uploads/2026/05/univers.jpg' },
+                { label: 'Healthcare & Hospitals', img: 'https://marqnetworks.co/wp-content/uploads/2026/05/health.jpg' },
+                { label: 'Corporate Hubs', img: 'https://marqnetworks.co/wp-content/uploads/2026/05/corp.jpg' },
               ].map(item => (
                 <div key={item.label} className="group">
                   <div className="aspect-square border border-accent/20 p-2 mb-6 grayscale group-hover:grayscale-0 transition-all duration-1000">
