@@ -154,13 +154,7 @@ export default function GreaseTrap() {
               to="/contact" 
               className="bg-dark text-white px-12 py-6 text-[11px] font-bold uppercase tracking-[0.4em] hover:bg-accent transition-colors shadow-2xl"
             >
-              Request Consultation
-            </Link>
-            <Link 
-              to="/industries" 
-              className="text-dark text-[11px] font-bold uppercase tracking-[0.4em] border-b border-accent pb-2 hover:text-accent transition-colors"
-            >
-              Sector Expertise <ChevronRight size={14} className="inline ml-2" />
+              Contact Us
             </Link>
           </div>
         </div>
