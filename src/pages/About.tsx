@@ -36,16 +36,13 @@ export default function About() {
             </h1>
             <div className="max-w-3xl mx-auto border-t border-accent/20 pt-16 mt-16">
               <p className="text-2xl font-serif text-dark mb-10 leading-relaxed italic">
-                "Established as the environmental and logistics division of Excelous, LLC—a firm defined by its record of performance for the most demanding federal agencies."
-              </p>
-              <p className="text-lg font-light text-dark/70 leading-relaxed max-w-2xl mx-auto">
-                Excelous Environmental & Logistics brings thirty years of executive leadership and field-proven capability to the critical task of maintaining institutional infrastructure and responding to environmental crises.
+                " Excelous Environmental & Logistics delivers executive leadership and field-proven capabilities focused on maintaining institutional infrastructure, supporting environmental operations, and responding to disaster recovery and emergency response efforts. "
               </p>
             </div>
           </motion.div>
         </div>
       </section>
-
+      
       {/* Leadership Portrait */}
       <section className="py-40 bg-white text-dark overflow-hidden shadow-sm">
         <div className="max-w-7xl mx-auto px-6">
