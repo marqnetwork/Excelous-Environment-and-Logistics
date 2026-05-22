@@ -108,7 +108,7 @@ export default function Home() {
               </motion.div>
               <div className="order-1 lg:order-2 p-4 border border-accent/20">
                 <div className="h-[500px] overflow-hidden grayscale hover:grayscale-0 transition-all duration-1000">
-                   <img src="https://marqnetworks.co/wp-content/uploads/2026/05/2.png" className="w-full h-full object-cover" alt="Heavy equipment" referrerPolicy="no-referrer" />
+                   <img src="https://excelous.net/wp-content/uploads/2025/05/DR-Image-768x580.webp" className="w-full h-full object-cover" alt="Heavy equipment" referrerPolicy="no-referrer" />
                 </div>
               </div>
             </div>
