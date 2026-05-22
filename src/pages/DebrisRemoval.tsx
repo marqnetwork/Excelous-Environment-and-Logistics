@@ -74,7 +74,7 @@ export default function DebrisRemoval() {
       <section className="py-40 bg-cream/30 border-y border-accent/10">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-32">
-            <h2 className="text-4xl md:text-6xl font-serif text-dark italic">Service <span className="text-accent not-italic">Capacities.</span></h2>
+            <h2 className="text-4xl md:text-6xl font-serif text-dark italic">Service <span className="text-accent not-italic">Capabilities.</span></h2>
             <div className="w-24 h-[1px] bg-accent mx-auto mt-8" />
           </div>
 
@@ -105,7 +105,7 @@ export default function DebrisRemoval() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-24 items-center">
             <div className="lg:col-span-12 mb-12">
                <div className="text-accent font-bold tracking-[0.4em] text-[10px] uppercase mb-4">Past Performance Highlights</div>
-               <h2 className="text-4xl md:text-[4rem] font-serif text-dark italic leading-tight">Field proven recovery <br/>operations <span className="not-italic">.</span></h2>
+               <h2 className="text-4xl md:text-[4rem] font-serif text-dark italic leading-tight">Field proven recovery<br/>operations <span className="not-italic">.</span></h2>
             </div>
             <div className="lg:col-span-7">
                <div className="p-4 border border-accent/20 mb-8 lg:mb-0 bg-cream/20">
@@ -115,10 +115,10 @@ export default function DebrisRemoval() {
             <div className="lg:col-span-5">
               <div className="space-y-12">
                 <div className="border-l-4 border-accent pl-10 py-4">
-                  <h4 className="text-xl font-serif text-dark italic mb-2">Hurricane Helene Response</h4>
-                  <p className="text-sm font-bold uppercase tracking-widest text-accent mb-4">Tree Removal Support</p>
+                  <h4 className="text-xl font-serif text-dark italic mb-2">Past Performance Highlights</h4>
+                  <p className="text-sm font-bold uppercase tracking-widest text-accent mb-4">Proven. Coordinated. Trusted.</p>
                   <p className="text-dark/60 font-light leading-relaxed">
-                    Systematic mobilization of certified crews with heavy-duty cutting and clearing machinery across multi-state Jurisdictions.
+                    Explore a selection of projects showcasing our experience supporting disaster recovery and debris removal efforts across federal, state, local, and commercial sectors. Our work demonstrates the ability to rapidly mobilize teams, coordinate logistics and workforce support, and deliver responsive solutions that help restore operations, infrastructure, and communities following emergency events.
                   </p>
                 </div>
                 <Link to="/past-performance" className="inline-flex items-center gap-4 text-[10px] font-bold uppercase tracking-[0.4em] text-dark border-b border-accent pb-2 hover:text-accent transition-colors">
@@ -139,10 +139,7 @@ export default function DebrisRemoval() {
           </p>
           <div className="flex flex-col sm:flex-row gap-8 justify-center items-center">
             <Link to="/contact" className="bg-dark text-white px-12 py-6 text-[11px] font-bold uppercase tracking-[0.4em] hover:bg-accent transition-all shadow-xl">
-              Request Quotation
-            </Link>
-            <Link to="tel:555" className="flex items-center gap-3 text-dark text-[11px] font-bold uppercase tracking-[0.4em] border-b border-accent/50 pb-2 hover:text-accent transition-colors">
-              <Waves size={16} /> 24/7 Emergency Line
+              Contact Us
             </Link>
           </div>
         </div>
