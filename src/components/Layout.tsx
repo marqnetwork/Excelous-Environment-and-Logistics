@@ -212,26 +212,12 @@ export function Footer() {
             <li><Link to="/contact" className="hover:text-accent transition-colors">CONTACT</Link></li>
           </ul>
         </div>
-
-        <div className="lg:col-span-4">
-          <h4 className="text-[10px] font-bold uppercase tracking-[0.4em] text-accent mb-10">Credentials</h4>
-          <div className="grid grid-cols-2 gap-4">
-            {['SBA 8(a)', 'EDWOSB', 'MBE/DBE', 'GSA MAS'].map(c => (
-              <div key={c} className="border border-white/10 p-5 text-center font-bold text-[9px] tracking-widest text-white/40 uppercase hover:border-accent hover:text-accent transition-all">
-                {c}
-              </div>
-            ))}
-            <div className="border border-accent text-accent p-5 text-center font-bold text-[9px] tracking-widest col-span-2 uppercase">
-              SAM.gov Registered Firm
-            </div>
-          </div>
-        </div>
       </div>
       
       <div className="max-w-7xl mx-auto px-6 mt-32 pt-10 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-10 text-[9px] font-bold tracking-[0.3em] text-white/30 uppercase text-center md:text-left">
         <p>© 2025 Excelous Environmental & Logistics. All rights reserved.</p>
-        <p>Institutional Integrity • Field Capability</p>
-        <p>South Fulton, Georgia</p>
+        <p></p>
+        <p>Designed by marQnetworks</p>
       </div>
     </footer>
   );
