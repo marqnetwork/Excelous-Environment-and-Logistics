@@ -21,7 +21,7 @@ export default function DebrisRemoval() {
             initial={{ scale: 1.1 }}
             animate={{ scale: 1 }}
             transition={{ duration: 15, repeat: Infinity, repeatType: "reverse", ease: "linear" }}
-            src="https://images.unsplash.com/photo-1533900298318-6b8da08a523e?auto=format&fit=crop&q=80&w=2000" 
+            src="https://marqnetworks.co/wp-content/uploads/2026/05/Debris-removal.webp" 
             className="w-full h-full object-cover brightness-[0.7] opacity-60"
             alt="Recovery background"
             referrerPolicy="no-referrer"
@@ -57,7 +57,7 @@ export default function DebrisRemoval() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
             <p className="text-2xl md:text-3xl font-serif text-dark italic leading-relaxed mb-12">
-              Natural disasters generate massive amounts of debris—and the pressure to clear it is immediate. Excelous provides the equipment, manpower, and professional integrity to handle events of any scale.
+              Natural disasters generate massive amounts of debris and the pressure to clear it is immediate. Excelous Environmental & Logistics provides the equipment, manpower, and professional integrity to handle events of any scale.
             </p>
             <div className="flex flex-wrap justify-center gap-12 font-bold tracking-[0.3em] uppercase text-[10px] text-accent pt-12 border-t border-accent/10">
               {['North Carolina Response', 'Virginia Recovery', 'Florida Mobilization'].map(state => (
