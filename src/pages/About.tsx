@@ -63,10 +63,16 @@ export default function About() {
               </div>
               <div className="space-y-8 font-light text-dark/70 leading-relaxed text-lg">
                 <p>
-                  A graduate of Florida A&M University's School of Business and Industry and an MBA from Clark Atlanta University, Karen brings over 30 years of leadership experience from the heights of global management consulting—including roles at Deloitte, IBM, and BearingPoint.
+                  Excelous Environmental & Logistics (EEL) was established to support environmental services, disaster recovery, debris removal, hauling, logistics coordination, and infrastructure support operations across commercial, institutional, and public sector environments.
                 </p>
                 <p>
-                  Under her stewardship, Excelous has evolved from a boutique consultancy into a multi-certified federal contractor, with deep operational roots in disaster recovery and institutional environmental services throughout the American Southeast.
+                  Our leadership team brings field-proven experience supporting disaster recovery operations, debris hauling and removal, environmental services, grease trap maintenance support, workforce deployment, and large-scale operational response initiatives through prior contracts, partnerships, and teaming relationships.
+                </p>
+                <p>
+                  EEL was created to provide a dedicated focus on environmental operations, recovery services, logistics support, and infrastructure maintenance while continuing to build upon the operational experience, leadership, and project capabilities established through years of project execution and industry support.
+                </p>
+                <p>
+                  Today, EEL remains focused on rapid response, scalable operations, safety, compliance, and dependable service delivery for clients requiring responsive environmental and operational support solutions.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 pt-12 border-t border-accent/10 mt-12">
                   <div className="flex gap-6 items-start">
