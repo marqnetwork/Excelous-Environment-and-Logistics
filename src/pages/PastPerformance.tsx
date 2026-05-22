@@ -7,7 +7,7 @@ const projects = [
     title: 'Debris Removal and Hauling',
     client: 'Highland Property Pros, LLC',
     locations: 'Beech Mountain Area, NC',
-    desc: 'Excelous responded with experienced crews and terrain-appropriate equipment.',
+    desc: 'Responded with experienced crews and terrain-appropriate equipment across Beech Mountain Area.',
     results: [
       'Completed safe removal and site cleanup under challenging terrain conditions.',
       'Protected road infrastructure and reduced potential flood risks from obstructed water flow.',
@@ -70,7 +70,7 @@ export default function PastPerformance() {
             Past <span className="not-italic">Performance.</span>
           </h1>
           <p className="mt-12 text-xl font-light text-dark/60 max-w-2xl mx-auto italic leading-relaxed">
-            "A proven track record of performance in disaster recovery and institutional environmental services. Our leadership is defined by responses to the most significant natural disasters of the decade."
+            "A proven track record delivering disaster recovery, debris removal, and environmental support services across commercial, institutional, and public sector environments."
           </p>
         </div>
       </section>
