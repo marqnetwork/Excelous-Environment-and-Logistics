@@ -40,7 +40,7 @@ export default function DebrisRemoval() {
               <span className="text-accent font-bold tracking-[0.4em] text-[10px] uppercase">Strategic Response</span>
               <div className="h-[1px] w-12 bg-accent" />
             </div>
-            <h1 className="text-5xl md:text-[6rem] mb-12 font-serif italic text-dark leading-tight">
+            <h1 className="text-5xl md:text-[5rem] mb-12 font-serif italic text-dark leading-tight">
               Disaster Recovery <span className="not-italic">&</span> Debris Removal<br/>
               At <span className="not-italic text-accent">Scale.</span>
             </h1>
