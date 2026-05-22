@@ -100,7 +100,7 @@ export default function Home() {
               >
                 <h3 className="text-4xl md:text-6xl font-serif text-white mb-8 italic">Debris <span className="not-italic text-accent">Removal</span> & Disaster Recovery.</h3>
                 <p className="text-lg text-white/60 mb-10 leading-relaxed font-light">
-                  Excelous provides Disaster Recovery and Debris Removal support services for federal, state, local, and commercial clients following natural disasters and emergency events. Our capabilities include debris removal, hauling, site cleanup, emergency logistics, workforce deployment, and recovery operations support. We deliver rapid response, scalable staffing, and coordinated recovery solutions to help restore safety, accessibility, and operational continuity.
+                  Excelous Environmental & Logistics provides Disaster Recovery and Debris Removal support services for federal, state, local, and commercial clients following natural disasters and emergency events. Our capabilities include debris removal, hauling, site cleanup, emergency logistics, workforce deployment, and recovery operations support. We deliver rapid response, scalable staffing, and coordinated recovery solutions to help restore safety, accessibility, and operational continuity.
                 </p>
                 <Link to="/services/debris-removal" className="inline-flex items-center gap-4 text-[10px] font-bold uppercase tracking-[0.3em] text-accent border-b border-accent pb-2 hover:text-white transition-colors">
                   Explore Capacity <ArrowRight size={14} />
@@ -126,7 +126,7 @@ export default function Home() {
               >
                 <h3 className="text-4xl md:text-6xl font-serif text-white mb-8 italic">Grease Trap <span className="not-italic text-accent">Cleaning</span> Services.</h3>
                 <p className="text-lg text-white/60 mb-10 leading-relaxed font-light">
-                  Excelous provides professional grease trap cleaning and maintenance services for commercial, municipal, and industrial facilities. Our services include grease trap pumping, waste removal, preventative maintenance, inspections, and environmental compliance support to help clients maintain safe, efficient, and compliant operations.
+                  Excelous Environmental & Logistics provides professional grease trap cleaning and maintenance services for commercial, municipal, and industrial facilities. Our services include grease trap pumping, waste removal, preventative maintenance, inspections, and environmental compliance support to help clients maintain safe, efficient, and compliant operations.
                 </p>
                 <Link to="/services/grease-trap" className="inline-flex items-center gap-4 text-[10px] font-bold uppercase tracking-[0.3em] text-accent border-b border-accent pb-2 hover:text-white transition-colors">
                   View Solutions <ArrowRight size={14} />
