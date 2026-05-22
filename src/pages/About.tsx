@@ -36,7 +36,10 @@ export default function About() {
             </h1>
             <div className="max-w-3xl mx-auto border-t border-accent/20 pt-16 mt-16">
               <p className="text-2xl font-serif text-dark mb-10 leading-relaxed italic">
-                " Excelous Environmental & Logistics delivers executive leadership and field-proven capabilities focused on maintaining institutional infrastructure, supporting environmental operations, and responding to disaster recovery and emergency response efforts. "
+                "Established as the environmental and logistics division of Excelous, LLC—a firm defined by its record of performance for the most demanding federal agencies."
+              </p>
+              <p className="text-lg font-light text-dark/70 leading-relaxed max-w-2xl mx-auto">
+                Excelous Environmental & Logistics brings thirty years of executive leadership and field-proven capability to the critical task of maintaining institutional infrastructure and responding to environmental crises.
               </p>
             </div>
           </motion.div>
@@ -89,12 +92,11 @@ export default function About() {
           </div>
         </div>
       </section>
-    
 
       {/* Values - Traditional Flow */}
       <section className="py-40 bg-cream/30">
         <div className="max-w-7xl mx-auto px-6 text-center mb-32">
-          <h2 className="text-4xl md:text-6xl font-serif text-dark italic">The Pillars of </br> <span className="text-accent not-italic">Excelous Environmental & Logistics.</span></h2>
+          <h2 className="text-4xl md:text-6xl font-serif text-dark italic">The Pillars of <span className="text-accent not-italic">Excelous.</span></h2>
           <div className="w-24 h-[1px] bg-accent mx-auto mt-8" />
         </div>
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16">
@@ -102,7 +104,7 @@ export default function About() {
             { title: 'Customer Commitment', desc: 'Developing long-term relationships defined by deep institutional knowledge and unwavering reliability.', icon: <Heart size={32} /> },
             { title: 'Quality of Performance', desc: 'Excellence is not measured by compliance alone, but by the tangible impact of our field operations.', icon: <ShieldCheck size={32} /> },
             { title: 'Team Expertise', desc: 'Investing in specialized field training to ensure our teams are prepared for any environmental contingency.', icon: <Award size={32} /> },
-            { title: 'Institutional Trust', desc: 'Bringing the professional standards of contracting to local and regional service requests.', icon: <Globe size={32} /> }
+            { title: 'Institutional Trust', desc: 'Bringing the professional standards of federal contracting to local and regional service requests.', icon: <Globe size={32} /> }
           ].map((v, i) => (
             <motion.div 
               key={v.title}
@@ -114,6 +116,32 @@ export default function About() {
               <p className="text-dark/60 font-light leading-relaxed max-w-sm mx-auto">{v.desc}</p>
             </motion.div>
           ))}
+        </div>
+      </section>
+
+      {/* Credentials Registry */}
+      <section className="py-40 bg-white">
+        <div className="max-w-5xl mx-auto px-6">
+          <div className="border border-accent/20 p-12 md:p-24 relative bg-cream/20">
+            <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-accent text-white px-8 py-2">
+              <ShieldCheck size={32} />
+            </div>
+            <h2 className="text-3xl font-serif text-dark mb-16 text-center italic">Corporate <span className="not-italic">Credentials</span></h2>
+            <div className="space-y-10">
+              {[
+                { label: 'Federal Designations', value: 'SBA 8(a) Certified Small Business • EDWOSB Firm' },
+                { label: 'Diverse Enterprises', value: 'MBE/DBE Certified (GA, TN, PA, MO, IL, MD, MA)' },
+                { label: 'Major Vehicles', value: 'GSA MAS Schedule Holder (47QTCA19D00KK) • SAM.gov' },
+                { label: 'NAICS Compliance', value: '562910, 541611, 562119, 561210' },
+                { label: 'Quality Controls', value: 'ISO 9000 Alignment • Project Management Professional (PMP)' }
+              ].map(item => (
+                <div key={item.label} className="grid grid-cols-1 md:grid-cols-3 gap-4 border-b border-accent/10 pb-6">
+                  <div className="text-[10px] font-bold uppercase tracking-[0.3em] text-accent">{item.label}</div>
+                  <div className="md:col-span-2 text-dark font-serif italic text-lg">{item.value}</div>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </section>
     </div>
