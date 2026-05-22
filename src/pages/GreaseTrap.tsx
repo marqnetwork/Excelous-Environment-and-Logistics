@@ -39,8 +39,8 @@ export default function GreaseTrap() {
               <div className="h-[1px] w-12 bg-accent" />
             </div>
             <h1 className="text-5xl md:text-[6rem] mb-12 font-serif italic text-dark leading-tight">
-              Focus on Your <span className="not-italic">Service.</span> <br/>
-              Not Your <span className="not-italic text-accent">Grease Trap.</span>
+              <span className="not-italic text-accent">Grease Trap Solutions</span><br/>
+              Built for Operational <span className="not-italic">Reliability.</span> 
             </h1>
             <p className="text-xl text-dark/60 max-w-2xl mx-auto font-light leading-relaxed mb-16 italic">
               "Comprehensive maintenance and compliance solutions that keep your culinary operations odor-free and systematically compliant."
@@ -63,7 +63,7 @@ export default function GreaseTrap() {
                   "Grease traps are a critical foundation of any institutional kitchen. When neglected, they risk foul odors, health code violations, and costly operational delays."
                 </p>
                 <p>
-                  Excelous delivers the executive rigor of federal contracting to your scheduled maintenance program, ensuring absolute compliance through licensed field expertise.
+                  Excelous Environmental & Logistics delivers the executive rigor of federal contracting to your scheduled maintenance program, ensuring absolute compliance through licensed field expertise.
                 </p>
               </div>
             </div>
