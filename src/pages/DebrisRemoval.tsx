@@ -109,7 +109,7 @@ export default function DebrisRemoval() {
             </div>
             <div className="lg:col-span-7">
                <div className="p-4 border border-accent/20 mb-8 lg:mb-0 bg-cream/20">
-                 <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=1200" className="w-full h-full object-cover brightness-95" alt="Storm cleanup site" referrerPolicy="no-referrer" />
+                 <img src="https://excelous.net/wp-content/uploads/2025/03/disaster-banner-new.png" className="w-full h-full object-cover brightness-95" alt="Storm cleanup site" referrerPolicy="no-referrer" />
                </div>
             </div>
             <div className="lg:col-span-5">
