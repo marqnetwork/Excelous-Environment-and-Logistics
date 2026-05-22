@@ -215,7 +215,7 @@ export function Footer() {
       </div>
       
       <div className="max-w-7xl mx-auto px-6 mt-32 pt-10 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-10 text-[9px] font-bold tracking-[0.3em] text-white/30 uppercase text-center md:text-left">
-        <p>© 2025 Excelous Environmental & Logistics. All rights reserved.</p>
+        <p>© 2026 Excelous Environmental & Logistics. All rights reserved.</p>
         <p></p>
         <p>Designed by marQnetworks</p>
       </div>
