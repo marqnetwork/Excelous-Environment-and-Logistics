@@ -83,7 +83,7 @@ export default function About() {
       {/* Values - Traditional Flow */}
       <section className="py-40 bg-cream/30">
         <div className="max-w-7xl mx-auto px-6 text-center mb-32">
-          <h2 className="text-4xl md:text-6xl font-serif text-dark italic">The Pillars of </br> <span className="text-accent not-italic">Excelous Environmental & Logistics.</span></h2>
+          <h2 className="text-4xl md:text-6xl font-serif text-dark italic">The Pillars of <br> <span className="text-accent not-italic">Excelous Environmental & Logistics.</span></h2>
           <div className="w-24 h-[1px] bg-accent mx-auto mt-8" />
         </div>
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16">
