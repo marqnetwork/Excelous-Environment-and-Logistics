@@ -63,10 +63,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
             {[
-              { icon: <Award className="text-accent mx-auto mb-4" size={32} />, label: 'SBA 8(A) CERTIFIED' },
-              { icon: <Building2 className="text-accent mx-auto mb-4" size={32} />, label: 'EDWOSB FIRM' },
-              { icon: <Globe2 className="text-accent mx-auto mb-4" size={32} />, label: 'GSA MAS HOLDER' },
-              { icon: <ShieldCheck className="text-accent mx-auto mb-4" size={32} />, label: 'DUNS REGISTERED' },
+              { icon: <Award className="text-accent mx-auto mb-4" size={32} />, label: 'Rapid Response Mobilization' },
+              { icon: <Building2 className="text-accent mx-auto mb-4" size={32} />, label: 'Multi-State Operations' },
+              { icon: <Globe2 className="text-accent mx-auto mb-4" size={32} />, label: 'Debris Removal & Hauling' },
+              { icon: <ShieldCheck className="text-accent mx-auto mb-4" size={32} />, label: 'Environmental & Facility Services' },
             ].map((item, i) => (
               <motion.div 
                 key={item.label}
