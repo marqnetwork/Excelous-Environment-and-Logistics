@@ -43,6 +43,34 @@ const projects = [
       'Execution of safety protocols to protect workers and local communities during operations.'
     ],
     image: 'https://marqnetworks.co/wp-content/uploads/2026/05/EL-Pic-11.jpg'
+  },
+  {
+    title: 'Debris Removal and Hauling',
+    client: 'JW Golding Hauling',
+    locations: 'Viriginia',
+    desc: 'Excelous Enivronmental & Logistics supported hauling and disaster recovery operations by coordinating transportation services for dirt, debris, and related materials across active recovery and infrastructure projects within the State of Virginia. Our approach included:',
+    results: [
+      'Rapid mobilization of hauling resources and qualified drivers to support active project demands.',
+      'Coordination of dispatching, routing, and load management to maintain operational efficiency.',
+      'Deployment of DOT-compliant equipment and adherence to established safety protocols.',
+      'Workforce and logistics support designed to scale with changing project requirements.',
+      'Ongoing coordination with contractors and project stakeholders to support timely material movement and site operations.'
+    ],
+    image: 'https://marqnetworks.co/wp-content/uploads/2026/05/EL-Pic-11.jpg'
+  },
+  {
+    title: 'Grease Trap Maintenance',
+    client: 'Grease Trap USA',
+    locations: 'Atlanta, GA',
+    desc: 'Provided grease trap cleaning and maintenance support services in partnership with Grease Trap USA for commercial and institutional facilities. Our approach included:',
+    results: [
+      'Scheduled grease trap pumping and waste removal services to support uninterrupted operations.',
+      'Preventative maintenance designed to reduce buildup, blockages, and system disruptions.',
+      'Coordination of service schedules to minimize operational downtime for facility clients.',
+      'Support for environmental compliance and sanitary maintenance requirements.',
+      'Responsive field support and operational coordination for ongoing facility maintenance needs.'
+    ],
+    image: 'https://marqnetworks.co/wp-content/uploads/2026/05/EL-Pic-11.jpg'
   }
 ];
 
