@@ -186,11 +186,6 @@ export function Footer() {
           <p className="font-serif italic text-xl text-white/70 mb-10 max-w-sm">
             "When the environment demands a solution, we deliver excellence."
           </p>
-          <div className="flex gap-6">
-            <div className="w-12 h-12 border border-accent rounded-full flex items-center justify-center hover:bg-accent hover:text-primary transition-all cursor-pointer">
-              <Phone size={18} />
-            </div>
-          </div>
         </div>
 
         <div className="lg:col-span-3">
