@@ -121,7 +121,7 @@ export default function DebrisRemoval() {
                     Explore a selection of projects showcasing our experience supporting disaster recovery and debris removal efforts across federal, state, local, and commercial sectors. Our work demonstrates the ability to rapidly mobilize teams, coordinate logistics and workforce support, and deliver responsive solutions that help restore operations, infrastructure, and communities following emergency events.
                   </p>
                 </div>
-                <Link to="/past-performance" className="inline-flex items-center gap-4 text-[10px] font-bold uppercase tracking-[0.4em] text-dark border-b border-accent pb-2 hover:text-accent transition-colors">
+                <Link to="/projects" className="inline-flex items-center gap-4 text-[10px] font-bold uppercase tracking-[0.4em] text-dark border-b border-accent pb-2 hover:text-accent transition-colors">
                   Full Performance History <ChevronRight size={14} />
                 </Link>
               </div>
