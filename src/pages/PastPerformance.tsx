@@ -7,11 +7,13 @@ const projects = [
     title: 'Debris Removal and Hauling',
     client: 'Highland Property Pros, LLC',
     locations: 'Beech Mountain Area, NC',
-    desc: 'Responded with experienced crews and terrain-appropriate equipment across Beech Mountain Area.',
+    desc: 'Responded with experienced crews and terrain-appropriate equipment. The team managed:',
     results: [
-      'Completed safe removal and site cleanup under challenging terrain conditions.',
-      'Protected road infrastructure and reduced potential flood risks from obstructed water flow.',
-      'Earned commendations for precision and attention to environmental detail.'
+      'Strategic Debris Removal: Clearing debris while preventing erosion and damage to surrounding natural areas.',
+      'Steep Grade Operations: Using low-impact machinery suited to the mountainous region.',
+      'Material Transport: Delivering all debris to DMS/TDSRS or local landfill facilities in compliance with environmental codes.',
+      'Safety Management: Implementing slope-specific safety protocols for crew members.',
+      'Environmental Protection: Minimizing disruption to wildlife and drainage systems during the cleanup.'
     ],
     image: 'https://excelous.net/wp-content/uploads/2025/05/DR-Image-768x580.webp'
   },
@@ -19,12 +21,12 @@ const projects = [
     title: 'Debris Removal and Hauling',
     client: 'Highland Property Pros, LLC',
     locations: 'Avery County, NC',
-    desc: 'Excelous was contracted to execute comprehensive storm debris removal operations across Avery County.',
+    desc: 'Contracted to execute comprehensive storm debris removal operations across Avery County. Tasks included:',
     results: [
-      'Removed high-risk debris efficiently, preventing blockages and erosion hazards.',
-      'Enabled a faster return to public services and travel infrastructure.',
-      'Met aggressive recovery deadlines.',
-      'Established Excelous as a trusted resource for rural storm response operations.'
+      'Vegetative and C&D Removal: Systematic extraction of debris from county-maintained roads.',
+      'Loading and Transport: Moving materials to designated disposal and recovery sites.',
+      'Compliance Measures: Following Avery County guidelines for storm debris classification and disposal.',
+      'Reporting: Delivering daily progress logs and before/after documentation.'
     ],
     image: 'https://marqnetworks.co/wp-content/uploads/2026/05/EL-Pic-11.jpg'
   },
@@ -32,11 +34,13 @@ const projects = [
     title: 'Disaster Recovery Tree Removal Support',
     client: 'Ceres Environmental',
     locations: 'Multiple',
-    desc: 'Excelous provided disaster recovery support by deploying skilled teams to assess, cut, and remove fallen trees in affected areas.',
+    desc: 'Provided disaster recovery support by deploying skilled teams to assess, cut, and remove fallen trees in affected areas. Our approach included:',
     results: [
-      'Cleared critical roadways and public access points, accelerating recovery efforts.',
-      'Safely removed hazardous trees, reducing risks to residents and infrastructure.',
-      'Supported FEMA’s disaster recovery mission with efficient and environmentally responsible debris management.'
+      'Rapid mobilization of certified crews equipped with heavy-duty cutting and clearing machinery.',
+      'Systematic assessment of hazardous tree conditions to prioritize removal efforts.',
+      'Coordination with local, state, and federal agencies to ensure compliance with safety and environmental regulations.',
+      'Implementation of debris management strategies, including eco-friendly disposal and recycling of tree materials.',
+      'Execution of safety protocols to protect workers and local communities during operations.'
     ],
     image: 'https://marqnetworks.co/wp-content/uploads/2026/05/EL-Pic-11.jpg'
   }
