@@ -14,7 +14,7 @@ const navItems = [
     ]
   },
   { name: 'Projects', path: '/projects' },
-  { name: 'Industries', path: '/industries' },
+  //{ name: 'Industries', path: '/industries' },
   { name: 'About', path: '/about' },
   { name: 'Contact', path: '/contact' },
 ];
