@@ -40,7 +40,7 @@ export default function Contact() {
             <div className="h-[1px] w-12 bg-accent" />
           </div>
           <h1 className="text-5xl md:text-[6rem] font-serif text-dark italic leading-tight">
-            Consult <span className="not-italic">Excelous.</span>
+            Consult <span className="not-italic">Excelous Environmental & Logistics.</span>
           </h1>
           <p className="mt-12 text-xl font-light text-dark/50 max-w-2xl mx-auto italic">
             "Strategic infrastructure support is only a conversation away. Connect with our experts today."
