@@ -70,13 +70,11 @@ export default function GreaseTrap() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-accent/20 border border-accent/20">
                <div className="bg-cream/20 p-12 text-center group">
                   <Clock className="text-accent mx-auto mb-6 group-hover:scale-110 transition-transform" size={40} />
-                  <h4 className="text-[10px] font-bold tracking-[0.4em] text-dark uppercase mb-2">Availability</h4>
-                  <p className="font-serif italic text-lg text-dark">24/7 Response</p>
+                  <p className="font-serif italic text-lg text-dark">ROUTINE MAINTENANCE</p>
                </div>
                <div className="bg-cream/20 p-12 text-center group">
                   <FileText className="text-accent mx-auto mb-6 group-hover:scale-110 transition-transform" size={40} />
-                  <h4 className="text-[10px] font-bold tracking-[0.4em] text-dark uppercase mb-2">Documentation</h4>
-                  <p className="font-serif italic text-lg text-dark">Total Compliance</p>
+                  <p className="font-serif italic text-lg text-dark">FIELD EXPERTISE</p>
                </div>
             </div>
           </div>
