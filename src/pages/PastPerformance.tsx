@@ -33,7 +33,7 @@ const projects = [
   {
     title: 'Disaster Recovery Tree Removal Support',
     client: 'Ceres Environmental',
-    locations: 'Multiple',
+    locations: 'Multiple Location',
     desc: 'Provided disaster recovery support by deploying skilled teams to assess, cut, and remove fallen trees in affected areas. Our approach included:',
     results: [
       'Rapid mobilization of certified crews equipped with heavy-duty cutting and clearing machinery.',
