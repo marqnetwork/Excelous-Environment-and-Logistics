@@ -194,7 +194,6 @@ export function Footer() {
             <li><Link to="/services/debris-removal" className="hover:text-accent transition-colors">DEBRIS REMOVAL</Link></li>
             <li><Link to="/services/debris-removal" className="hover:text-accent transition-colors">DISASTER RECOVERY</Link></li>
             <li><Link to="/services/grease-trap" className="hover:text-accent transition-colors">GREASE TRAPS</Link></li>
-            <li><Link to="/services/grease-trap" className="hover:text-accent transition-colors">COMPLIANCE</Link></li>
           </ul>
         </div>
 
@@ -202,7 +201,6 @@ export function Footer() {
           <h4 className="text-[10px] font-bold uppercase tracking-[0.4em] text-accent mb-10">Company</h4>
           <ul className="space-y-6 text-sm font-medium tracking-widest text-white/60">
             <li><Link to="/projects" className="hover:text-accent transition-colors">PROJECTS</Link></li>
-            <li><Link to="/industries" className="hover:text-accent transition-colors">INDUSTRIES</Link></li>
             <li><Link to="/about" className="hover:text-accent transition-colors">ABOUT US</Link></li>
             <li><Link to="/contact" className="hover:text-accent transition-colors">CONTACT</Link></li>
           </ul>
