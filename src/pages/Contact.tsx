@@ -60,36 +60,23 @@ export default function Contact() {
                     <Mail className="text-accent shrink-0 mt-1" size={24} />
                     <div>
                       <h4 className="text-[10px] font-bold tracking-[0.3em] uppercase text-accent mb-2">Correspondence</h4>
-                      <p className="font-serif italic text-lg text-dark/90">info@excelous.net</p>
+                      <p className="font-serif italic text-lg text-dark/90">info@eelllc.net</p>
                     </div>
                   </div>
                   <div className="flex gap-6 items-start">
                     <Phone className="text-accent shrink-0 mt-1" size={24} />
                     <div>
                       <h4 className="text-[10px] font-bold tracking-[0.3em] uppercase text-accent mb-2">Voice</h4>
-                      <p className="font-serif italic text-lg text-dark/90">[Phone Placeholder]</p>
+                      <p className="font-serif italic text-lg text-dark/90">(678) 898 2678</p>
                     </div>
                   </div>
                   <div className="flex gap-6 items-start">
                     <MapPin className="text-accent shrink-0 mt-1" size={24} />
                     <div>
                       <h4 className="text-[10px] font-bold tracking-[0.3em] uppercase text-accent mb-2">Regional Hub</h4>
-                      <p className="font-serif italic text-lg text-dark/90">South Fulton, Georgia</p>
+                      <p className="font-serif italic text-lg text-dark/90">Georgia</p>
                     </div>
                   </div>
-                </div>
-              </div>
-
-              <div className="p-10 border border-accent/10 bg-cream/10">
-                <div className="flex items-center gap-4 mb-8 text-dark uppercase tracking-[0.3em] text-[10px] font-bold">
-                  <Clock size={16} className="text-accent" /> Service Hours
-                </div>
-                <div className="space-y-4 font-light text-dark/50">
-                  <p className="flex justify-between border-b border-accent/5 pb-2"><span>Office Hours:</span> <span className="font-serif italic text-dark/80">08:00 — 17:00</span></p>
-                  <p className="flex justify-between items-center text-dark pt-4 font-bold uppercase tracking-widest text-xs">
-                    <span className="flex items-center gap-2"><AlertCircle size={14} className="text-accent" /> Emergency</span>
-                    <span className="font-serif italic text-accent">24 Hours / 7 Days</span>
-                  </p>
                 </div>
               </div>
             </div>
