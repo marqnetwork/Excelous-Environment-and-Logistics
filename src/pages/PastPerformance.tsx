@@ -117,7 +117,8 @@ export default function PastPerformance() {
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                className="grid grid-cols-1 lg:grid-cols-12 gap-24 row-2 items-center"
+                className="grid grid-cols-1 lg:grid-cols-12 gap-24 row-gap-2 items-center"
+                style={{marginBottom: "9%"}}
               >
                 <div className={`lg:col-span-6 ${i % 2 === 1 ? 'lg:order-2' : ''}`}>
                   <div className="p-4 border border-accent/20 relative group bg-cream/20">
