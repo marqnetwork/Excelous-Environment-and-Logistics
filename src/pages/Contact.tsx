@@ -40,7 +40,7 @@ export default function Contact() {
             <div className="h-[1px] w-12 bg-accent" />
           </div>
           <h1 className="text-5xl md:text-[6rem] font-serif text-dark italic leading-tight">
-            Consult <span className="not-italic">Excelous Environmental & Logistics.</span>
+            Consult <span className="not-italic text-accent">Excelous Environmental & Logistics.</span>
           </h1>
           <p className="mt-12 text-xl font-light text-dark/50 max-w-2xl mx-auto italic">
             "Strategic infrastructure support is only a conversation away. Connect with our experts today."
@@ -107,7 +107,7 @@ export default function Contact() {
                       <label className="text-[10px] font-bold uppercase tracking-[0.3em] text-dark/40">Corporate Entity</label>
                       <input 
                         className="w-full bg-transparent border-0 font-serif italic text-xl text-dark p-0 placeholder:text-dark/20 outline-none focus:text-accent transition-colors"
-                        placeholder="Ex: Excelous LLC"
+                        placeholder="Ex: ABC Company"
                       />
                     </div>
                   </div>
