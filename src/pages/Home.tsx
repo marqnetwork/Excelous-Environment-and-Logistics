@@ -98,7 +98,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, x: 0 }}
                 className="order-2 lg:order-1"
               >
-                <h3 className="text-4xl md:text-6xl font-serif text-white mb-8 italic">Debris <span className="not-italic text-accent">Removal</span> & Disaster Recovery.</h3>
+                <h3 className="text-4xl md:text-6xl font-serif text-white mb-8 italic">Debris Removal & Disaster <span className="not-italic text-accent">Recovery.</span></h3>
                 <p className="text-lg text-white/60 mb-10 leading-relaxed font-light">
                   Excelous Environmental & Logistics provides Disaster Recovery and Debris Removal support services for federal, state, local, and commercial clients following natural disasters and emergency events. Our capabilities include debris removal, hauling, site cleanup, emergency logistics, workforce deployment, and recovery operations support. We deliver rapid response, scalable staffing, and coordinated recovery solutions to help restore safety, accessibility, and operational continuity.
                 </p>
@@ -163,7 +163,7 @@ export default function Home() {
             to="/contact" 
             className="group relative inline-flex items-center justify-center border border-accent p-10 py-6 overflow-hidden transition-all hover:bg-accent hover:text-primary"
           >
-            <span className="relative text-[11px] font-bold tracking-[0.5em] uppercase">Request Consultation</span>
+            <span className="relative text-[11px] font-bold tracking-[0.5em] uppercase">Contact Us</span>
           </Link>
         </div>
       </section>
