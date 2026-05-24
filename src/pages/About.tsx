@@ -58,7 +58,7 @@ export default function About() {
             </div>
             <div className="lg:col-span-6">
               <div className="inline-block border-l-4 border-accent pl-8 mb-10">
-                <h2 className="text-4xl md:text-6xl font-serif mb-2 italic text-accent">About Excelous Environmental & Logistics</h2>
+                <h2 className="text-4xl md:text-6xl font-serif mb-2 italic">About <span className="text-accent">Excelous Environmental & Logistics</span> </h2>
               </div>
               <div className="space-y-8 font-light text-dark/70 leading-relaxed text-lg">
                 <p>
