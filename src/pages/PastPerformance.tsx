@@ -33,7 +33,7 @@ const projects = [
   {
     title: 'Disaster Recovery Tree Removal Support',
     client: 'Ceres Environmental',
-    locations: 'Multiple Location',
+    locations: 'Multiple Locations',
     desc: 'Provided disaster recovery support by deploying skilled teams to assess, cut, and remove fallen trees in affected areas. Our approach included:',
     results: [
       'Rapid mobilization of certified crews equipped with heavy-duty cutting and clearing machinery.',
@@ -144,7 +144,7 @@ export default function PastPerformance() {
                   </p>
                   
                   <div className={`space-y-6 py-10 border-y border-accent/10 ${i % 2 === 1 ? 'items-end' : ''}`}>
-                    <h4 className="text-[10px] font-bold tracking-[0.4em] text-dark uppercase">Mission Outcomes:</h4>
+                    <h4 className="text-[10px] font-bold tracking-[0.4em] text-dark uppercase">Project Details:</h4>
                     <div className={`space-y-4 ${i % 2 === 1 ? 'flex flex-col items-end' : ''}`}>
                     {project.results.map(res => (
                       <div key={res} className="flex gap-4 text-dark/50 font-light italic">
@@ -166,7 +166,7 @@ export default function PastPerformance() {
         <div className="max-w-4xl mx-auto px-6 text-center">
           <div className="w-[1px] h-24 bg-accent mx-auto mb-12" />
           <h2 className="text-4xl md:text-6xl font-serif text-dark mb-12 italic leading-tight">
-             Engage our <span className="not-italic text-accent">Operational</span> Capacity.
+             Engage our <span className="not-italic text-accent">Operational</span> capability.
           </h2>
           <p className="text-xl text-dark/60 font-light mb-16 leading-relaxed">
             Excelous Environmental & Logistics is ready for rapid mobilization and systematic execution across municipal, state, and federal environments.
