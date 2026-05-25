@@ -65,8 +65,8 @@ export default function Home() {
             {[
               { icon: <Award className="text-accent mx-auto mb-4" size={32} />, label: 'Rapid Response Mobilization' },
               { icon: <Building2 className="text-accent mx-auto mb-4" size={32} />, label: 'Multi-State Operations' },
-              { icon: <Globe2 className="text-accent mx-auto mb-4" size={32} />, label: 'Disaster Recovery' },
-              { icon: <ShieldCheck className="text-accent mx-auto mb-4" size={32} />, label: 'Environmental & Facility Services' },
+              { icon: <Globe2 className="text-accent mx-auto mb-4" size={32} />, label: 'Scalable Operations' },
+              { icon: <ShieldCheck className="text-accent mx-auto mb-4" size={32} />, label: 'Coordinated Field Execution' },
             ].map((item, i) => (
               <motion.div 
                 key={item.label}
