@@ -11,7 +11,7 @@ export default function About() {
             initial={{ scale: 1.15 }}
             animate={{ scale: 1 }}
             transition={{ duration: 20, repeat: Infinity, repeatType: "reverse", ease: "linear" }}
-            src="https://images.unsplash.com/photo-1497366858526-0755928d9f83?auto=format&fit=crop&q=80&w=2000" 
+            src="https://images.unsplash.com/photo-1516937941344-00b4e0337589?auto=format&fit=crop&q=80&w=2000" 
             className="w-full h-full object-cover brightness-[0.7] opacity-50"
             alt="Office background"
             referrerPolicy="no-referrer"
