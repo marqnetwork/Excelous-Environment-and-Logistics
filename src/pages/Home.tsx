@@ -145,7 +145,7 @@ export default function Home() {
                 <p className="text-lg text-white/60 mb-10 leading-relaxed font-light">
                   Excelous Environmental & Logistics provides scalable bulk material hauling support for infrastructure projects, environmental operations, construction activities, and recovery-related initiatives. Our team supports coordinated transportation logistics for high-volume material movement across local, regional, and multi-site operations.
                 </p>
-                <p>
+                <p className="text-lg text-white/60 mb-10 leading-relaxed font-light">
                   We support hauling operations involving dirt, gravel, stone, aggregate, sand, construction materials, and site support resources through responsive coordination and operational oversight.
                 </p>
                 <Link to="/services/debris-removal" className="inline-flex items-center gap-4 text-[10px] font-bold uppercase tracking-[0.3em] text-accent border-b border-accent pb-2 hover:text-white transition-colors">
