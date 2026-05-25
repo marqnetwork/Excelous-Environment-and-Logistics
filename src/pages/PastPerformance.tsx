@@ -15,7 +15,7 @@ const projects = [
       'Safety Management: Implementing slope-specific safety protocols for crew members.',
       'Environmental Protection: Minimizing disruption to wildlife and drainage systems during the cleanup.'
     ],
-    image: 'https://excelous.net/wp-content/uploads/2025/05/DR-Image-768x580.webp'
+    image: 'https://marqnetworks.co/wp-content/uploads/2026/05/debris.jpg'
   },
   {
     title: 'Debris Removal and Hauling',
@@ -84,7 +84,7 @@ export default function PastPerformance() {
             initial={{ scale: 1.1 }}
             animate={{ scale: 1 }}
             transition={{ duration: 15, repeat: Infinity, repeatType: "reverse", ease: "linear" }}
-            src="https://excelous.net/wp-content/uploads/2025/03/disaster-banner-new.png" 
+            src="https://marqnetworks.co/wp-content/uploads/2026/05/past-performance.jpg" 
             className="w-full h-full object-cover brightness-[0.7] opacity-60"
             alt="Field operations background"
             referrerPolicy="no-referrer"
