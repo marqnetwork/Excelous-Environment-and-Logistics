@@ -10,7 +10,7 @@ const navItems = [
     path: '#',
     dropdown: [
       { name: 'Disaster Recovery', path: '/services/debris-removal' },
-      { name: 'Grease Trap', path: '/services/grease-trap' }, 
+      { name: 'Grease Trap Cleaning', path: '/services/grease-trap' }, 
       { name: 'Bulk Material Hauling', path: '/' },
     ]
   },
