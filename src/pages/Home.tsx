@@ -39,7 +39,7 @@ export default function Home() {
             </h1>
 
             <p className="text-xl md:text-2xl text-white/60 max-w-2xl mx-auto mb-16 font-light leading-relaxed">
-              AR Excelous Environmental & Logistics, we deliver infrastructure support and field operations services for government, commercial, and industrial clients. Our capabilities include disaster recovery and rapid response, bulk materials hauling for dirt, asphalt, and aggregate, and commercial grease trap cleaning and environmental services.
+              At Excelous Environmental & Logistics, we deliver infrastructure support and field operations services for government, commercial, and industrial clients. Our capabilities include disaster recovery and rapid response, bulk materials hauling for dirt, asphalt, and aggregate, and commercial grease trap cleaning and environmental services.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-8 justify-center items-center">
