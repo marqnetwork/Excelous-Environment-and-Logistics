@@ -11,7 +11,7 @@ const navItems = [
     dropdown: [
       { name: 'Disaster Recovery', path: '/services/debris-removal' },
       { name: 'Grease Trap', path: '/services/grease-trap' }, 
-      { name: 'Bluk Material Hauling', path: '/' },
+      { name: 'Bulk Material Hauling', path: '/' },
     ]
   },
   { name: 'Projects', path: '/projects' },
@@ -186,7 +186,7 @@ export function Footer() {
           <ul className="space-y-6 text-sm font-medium tracking-widest text-white/60">
             <li><Link to="/services/debris-removal" className="hover:text-accent transition-colors">DISASTER RECOVERY</Link></li>
             <li><Link to="/services/grease-trap" className="hover:text-accent transition-colors">GREASE TRAPS</Link></li>
-            <li><Link to="/" className="hover:text-accent transition-colors">BLUK MATERIAL HAULING</Link></li>
+            <li><Link to="/" className="hover:text-accent transition-colors">BULK MATERIAL HAULING</Link></li>
           </ul>
         </div>
 
