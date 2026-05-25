@@ -115,23 +115,48 @@ export default function Home() {
 
             {/* Service 2 */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
-              <div className="p-4 border border-accent/20">
-                <div className="h-[500px] overflow-hidden grayscale hover:grayscale-0 transition-all duration-1000">
-                   <img src="https://marqnetworks.co/wp-content/uploads/2026/05/1.png" className="w-full h-full object-cover" alt="Industrial service" referrerPolicy="no-referrer" />
+                <div className="p-4 border border-accent/20">
+                  <div className="h-[500px] overflow-hidden grayscale hover:grayscale-0 transition-all duration-1000">
+                     <img src="https://marqnetworks.co/wp-content/uploads/2026/05/1.png" className="w-full h-full object-cover" alt="Industrial service" referrerPolicy="no-referrer" />
+                  </div>
                 </div>
-              </div>
+                <motion.div 
+                  initial={{ opacity: 0, x: 30 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                >
+                  <h3 className="text-4xl md:text-6xl font-serif text-white mb-8 italic">Grease Trap <span className="not-italic text-accent">Cleaning</span> Services.</h3>
+                  <p className="text-lg text-white/60 mb-10 leading-relaxed font-light">
+                    Excelous Environmental & Logistics provides professional grease trap cleaning and maintenance services for commercial, municipal, and industrial facilities. Our services include grease trap pumping, waste removal, preventative maintenance, inspections, and environmental compliance support to help clients maintain safe, efficient, and compliant operations.
+                  </p>
+                  <Link to="/services/grease-trap" className="inline-flex items-center gap-4 text-[10px] font-bold uppercase tracking-[0.3em] text-accent border-b border-accent pb-2 hover:text-white transition-colors">
+                    View Solutions <ArrowRight size={14} />
+                  </Link>
+                </motion.div>
+            </div>
+
+             {/* Service 3 */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
               <motion.div 
-                initial={{ opacity: 0, x: 30 }}
+                initial={{ opacity: 0, x: -30 }}
                 whileInView={{ opacity: 1, x: 0 }}
+                className="order-2 lg:order-1"
               >
-                <h3 className="text-4xl md:text-6xl font-serif text-white mb-8 italic">Grease Trap <span className="not-italic text-accent">Cleaning</span> Services.</h3>
+                <h3 className="text-4xl md:text-6xl font-serif text-white mb-8 italic">Bulk Materials <span className="not-italic text-accent">Hauling.</span></h3>
                 <p className="text-lg text-white/60 mb-10 leading-relaxed font-light">
-                  Excelous Environmental & Logistics provides professional grease trap cleaning and maintenance services for commercial, municipal, and industrial facilities. Our services include grease trap pumping, waste removal, preventative maintenance, inspections, and environmental compliance support to help clients maintain safe, efficient, and compliant operations.
+                  Excelous Environmental & Logistics provides scalable bulk material hauling support for infrastructure projects, environmental operations, construction activities, and recovery-related initiatives. Our team supports coordinated transportation logistics for high-volume material movement across local, regional, and multi-site operations.
                 </p>
-                <Link to="/services/grease-trap" className="inline-flex items-center gap-4 text-[10px] font-bold uppercase tracking-[0.3em] text-accent border-b border-accent pb-2 hover:text-white transition-colors">
-                  View Solutions <ArrowRight size={14} />
+                <p>
+                  We support hauling operations involving dirt, gravel, stone, aggregate, sand, construction materials, and site support resources through responsive coordination and operational oversight.
+                </p>
+                <Link to="/services/debris-removal" className="inline-flex items-center gap-4 text-[10px] font-bold uppercase tracking-[0.3em] text-accent border-b border-accent pb-2 hover:text-white transition-colors">
+                  Explore Capacity <ArrowRight size={14} />
                 </Link>
               </motion.div>
+              <div className="order-1 lg:order-2 p-4 border border-accent/20">
+                <div className="h-[500px] overflow-hidden grayscale hover:grayscale-0 transition-all duration-1000">
+                   <img src="https://excelous.net/wp-content/uploads/2025/05/DR-Image-768x580.webp" className="w-full h-full object-cover" alt="Heavy equipment" referrerPolicy="no-referrer" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
