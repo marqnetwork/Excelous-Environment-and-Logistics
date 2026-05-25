@@ -103,7 +103,7 @@ export default function Home() {
                   Excelous Environmental & Logistics provides Disaster Recovery support services for federal, state, local, and commercial clients following natural disasters and emergency events. Our capabilities include hauling, site cleanup, emergency logistics, workforce deployment, and recovery operations support. We deliver rapid response, scalable staffing, and coordinated recovery solutions to help restore safety, accessibility, and operational continuity.
                 </p>
                 <Link to="/services/debris-removal" className="inline-flex items-center gap-4 text-[10px] font-bold uppercase tracking-[0.3em] text-accent border-b border-accent pb-2 hover:text-white transition-colors">
-                  Explore Capacity <ArrowRight size={14} />
+                  Explore Capability <ArrowRight size={14} />
                 </Link>
               </motion.div>
               <div className="order-1 lg:order-2 p-4 border border-accent/20">
@@ -124,12 +124,12 @@ export default function Home() {
                   initial={{ opacity: 0, x: 30 }}
                   whileInView={{ opacity: 1, x: 0 }}
                 >
-                  <h3 className="text-4xl md:text-6xl font-serif text-white mb-8 italic">Grease Trap <span className="not-italic text-accent">Cleaning</span> Services.</h3>
+                  <h3 className="text-4xl md:text-6xl font-serif text-white mb-8 italic">Grease Trap <span className="not-italic text-accent">Cleaning.</span></h3>
                   <p className="text-lg text-white/60 mb-10 leading-relaxed font-light">
                     Excelous Environmental & Logistics provides professional grease trap cleaning and maintenance services for commercial, municipal, and industrial facilities. Our services include grease trap pumping, waste removal, preventative maintenance, inspections, and environmental compliance support to help clients maintain safe, efficient, and compliant operations.
                   </p>
                   <Link to="/services/grease-trap" className="inline-flex items-center gap-4 text-[10px] font-bold uppercase tracking-[0.3em] text-accent border-b border-accent pb-2 hover:text-white transition-colors">
-                    View Solutions <ArrowRight size={14} />
+                    Explore Capability <ArrowRight size={14} />
                   </Link>
                 </motion.div>
             </div>
@@ -149,7 +149,7 @@ export default function Home() {
                   We support hauling operations involving dirt, gravel, stone, aggregate, sand, construction materials, and site support resources through responsive coordination and operational oversight.
                 </p>
                 <Link to="/services/debris-removal" className="inline-flex items-center gap-4 text-[10px] font-bold uppercase tracking-[0.3em] text-accent border-b border-accent pb-2 hover:text-white transition-colors">
-                  Explore Capacity <ArrowRight size={14} />
+                  Explore Capability <ArrowRight size={14} />
                 </Link>
               </motion.div>
               <div className="order-1 lg:order-2 p-4 border border-accent/20">
