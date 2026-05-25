@@ -62,7 +62,7 @@ export default function About() {
               </div>
               <div className="space-y-8 font-light text-dark/70 leading-relaxed text-lg">
                 <p>
-                  Excelous Environmental & Logistics (EEL) was established to support environmental services, disaster recovery, debris removal, hauling, logistics coordination, and infrastructure support operations across commercial, institutional, and public sector environments.
+                  Excelous Environmental & Logistics (EEL) was established to support environmental services, debris removal, hauling, logistics coordination, and infrastructure support operations across commercial, institutional, and public sector environments.
                 </p>
                 <p>
                   Our leadership team brings field-proven experience supporting disaster recovery operations, debris hauling and removal, environmental services, grease trap maintenance support, workforce deployment, and large-scale operational response initiatives through prior contracts, partnerships, and teaming relationships.
