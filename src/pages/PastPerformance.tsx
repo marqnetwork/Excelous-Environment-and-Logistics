@@ -102,7 +102,7 @@ export default function PastPerformance() {
             Past <span className="not-italic">Performance.</span>
           </h1>
           <p className="mt-12 text-xl font-light text-dark/60 max-w-2xl mx-auto italic leading-relaxed">
-            "A proven track record delivering disaster recovery, debris removal, and environmental support services across commercial, institutional, and public sector environments."
+            "A proven track record delivering disaster recovery, and environmental support services across commercial, institutional, and public sector environments."
           </p>
         </div>
       </section>
