@@ -60,7 +60,7 @@ export default function Contact() {
                     <Mail className="text-accent shrink-0 mt-1" size={24} />
                     <div>
                       <h4 className="text-[10px] font-bold tracking-[0.3em] uppercase text-accent mb-2">Correspondence</h4>
-                      <p className="font-serif italic text-lg text-dark/90">info@eelllc.net</p>
+                      <p className="font-serif italic text-lg text-dark/90">mking@eelllc.net</p>
                     </div>
                   </div>
                   <div className="flex gap-6 items-start">
