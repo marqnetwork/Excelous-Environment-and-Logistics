@@ -6,7 +6,7 @@ const capabilities = [
   { icon: <AlertTriangle />, title: 'Storm & Hurricane Response', desc: 'Large-scale collection of vegetative and construction debris following severe weather events. FEMA-compliant.' },
   { icon: <Truck />, title: 'Full-Cycle Disaster Recovery', desc: 'Site assessment, debris categorization, haul-off, and certified disposal for municipal environments.' },
   { icon: <Trees />, title: 'Emergency Tree Management', desc: 'Certified crews equipped with heavy-duty machinery for systematic assessment and removal of hazardous trees.' },
-  { icon: <Drill />, title: 'Construction Debris removal', desc: 'Efficient removal and disposal of C&D waste, including hazardous material segregation and recycling.' },
+  { icon: <Drill />, title: 'Bulk Material Hauling', desc: '' },
   { icon: <Building2 />, title: 'Right-of-Way Operations', desc: 'Clearing of roadways and public infrastructure pathways to ensure access for emergency response teams.' },
   { icon: <Anchor />, title: 'Marine Salvage & Survey', desc: 'Advanced marine surveying and large-scale salvage for waterway debris and submerged infrastructure.' },
 ];
@@ -41,11 +41,11 @@ export default function DebrisRemoval() {
               <div className="h-[1px] w-12 bg-accent" />
             </div>
             <h1 className="text-5xl md:text-[5rem] mb-12 font-serif italic text-dark leading-tight">
-              Disaster Recovery <span className="not-italic">&</span> Debris Removal<br/>
+              Disaster <span className="not-italic">&</span> Recovery<br/>
               At <span className="not-italic text-accent">Scale.</span>
             </h1>
             <p className="text-xl text-dark/60 max-w-2xl mx-auto font-light leading-relaxed mb-16 italic">
-              "When disaster strikes, the foundation of recovery is systematic debris removal. We provide the operational scale to restore community safety and municipal order."
+              "When disaster strikes, the foundation of recovery is systematic. We provide the operational scale to restore community safety and municipal order."
             </p>
           </motion.div>
         </div>
@@ -118,7 +118,7 @@ export default function DebrisRemoval() {
                   <h4 className="text-xl font-serif text-dark italic mb-2">Past Performance Highlights</h4>
                   <p className="text-sm font-bold uppercase tracking-widest text-accent mb-4">Proven. Coordinated. Trusted.</p>
                   <p className="text-dark/60 font-light leading-relaxed">
-                    Explore a selection of projects showcasing our experience supporting disaster recovery and debris removal efforts across federal, state, local, and commercial sectors. Our work demonstrates the ability to rapidly mobilize teams, coordinate logistics and workforce support, and deliver responsive solutions that help restore operations, infrastructure, and communities following emergency events.
+                    Explore a selection of projects showcasing our experience supporting disaster recovery efforts across federal, state, local, and commercial sectors. Our work demonstrates the ability to rapidly mobilize teams, coordinate logistics and workforce support, and deliver responsive solutions that help restore operations, infrastructure, and communities following emergency events.
                   </p>
                 </div>
                 <Link to="/projects" className="inline-flex items-center gap-4 text-[10px] font-bold uppercase tracking-[0.4em] text-dark border-b border-accent pb-2 hover:text-accent transition-colors">
