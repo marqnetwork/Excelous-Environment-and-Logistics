@@ -38,7 +38,7 @@ export default function Home() {
               Meets <span className="not-italic">Field</span> Performance.
             </h1>
 
-            <p className="text-xl md:text-2xl text-white/60 max-w-2xl mx-auto mb-16 font-light leading-relaxed">
+            <p className="text-xl md:text-2xl text-white/60 mx-auto mb-16 font-light leading-relaxed">
               At Excelous Environmental & Logistics, we deliver infrastructure support and field operations services for government, commercial, and industrial clients. Our capabilities include disaster recovery and rapid response, bulk materials hauling for dirt, asphalt, and aggregate, and commercial grease trap cleaning and environmental services.
             </p>
             
