@@ -99,14 +99,6 @@ export function Header() {
               </div>
             );
           })}
-          <Link 
-            to="/contact" 
-            className={`border border-accent px-8 py-3 text-[10px] font-bold uppercase tracking-[0.3em] transition-all hover:bg-accent hover:text-primary ${
-              scrolled ? 'text-accent' : isHomePage ? 'text-white hover:text-primary' : 'text-primary hover:text-white'
-            }`}
-          >
-            Inquire
-          </Link>
         </nav>
 
         {/* Mobile Toggle */}
