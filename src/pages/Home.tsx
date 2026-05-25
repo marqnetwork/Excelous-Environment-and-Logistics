@@ -39,7 +39,7 @@ export default function Home() {
             </h1>
 
             <p className="text-xl md:text-2xl text-white/60 max-w-2xl mx-auto mb-16 font-light leading-relaxed">
-              Excelous Environmental & Logistics provides elite debris removal, disaster recovery, and industrial grease trap solutions with over 30 years of mission-critical expertise.
+              Excelous Environmental & Logistics provides elite bulk material hauling, disaster recovery, and industrial grease trap solutions with over 30 years of mission-critical expertise.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-8 justify-center items-center">
@@ -65,7 +65,7 @@ export default function Home() {
             {[
               { icon: <Award className="text-accent mx-auto mb-4" size={32} />, label: 'Rapid Response Mobilization' },
               { icon: <Building2 className="text-accent mx-auto mb-4" size={32} />, label: 'Multi-State Operations' },
-              { icon: <Globe2 className="text-accent mx-auto mb-4" size={32} />, label: 'Debris Removal & Hauling' },
+              { icon: <Globe2 className="text-accent mx-auto mb-4" size={32} />, label: 'Disaster Recovery' },
               { icon: <ShieldCheck className="text-accent mx-auto mb-4" size={32} />, label: 'Environmental & Facility Services' },
             ].map((item, i) => (
               <motion.div 
@@ -98,9 +98,9 @@ export default function Home() {
                 whileInView={{ opacity: 1, x: 0 }}
                 className="order-2 lg:order-1"
               >
-                <h3 className="text-4xl md:text-6xl font-serif text-white mb-8 italic">Debris Removal & Disaster <span className="not-italic text-accent">Recovery.</span></h3>
+                <h3 className="text-4xl md:text-6xl font-serif text-white mb-8 italic">Disaster <span className="not-italic text-accent">Recovery.</span></h3>
                 <p className="text-lg text-white/60 mb-10 leading-relaxed font-light">
-                  Excelous Environmental & Logistics provides Disaster Recovery and Debris Removal support services for federal, state, local, and commercial clients following natural disasters and emergency events. Our capabilities include debris removal, hauling, site cleanup, emergency logistics, workforce deployment, and recovery operations support. We deliver rapid response, scalable staffing, and coordinated recovery solutions to help restore safety, accessibility, and operational continuity.
+                  Excelous Environmental & Logistics provides Disaster Recovery support services for federal, state, local, and commercial clients following natural disasters and emergency events. Our capabilities include hauling, site cleanup, emergency logistics, workforce deployment, and recovery operations support. We deliver rapid response, scalable staffing, and coordinated recovery solutions to help restore safety, accessibility, and operational continuity.
                 </p>
                 <Link to="/services/debris-removal" className="inline-flex items-center gap-4 text-[10px] font-bold uppercase tracking-[0.3em] text-accent border-b border-accent pb-2 hover:text-white transition-colors">
                   Explore Capacity <ArrowRight size={14} />
