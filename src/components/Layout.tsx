@@ -182,7 +182,7 @@ export function Footer() {
         </div>
 
         <div className="lg:col-span-3">
-          <h4 className="text-[10px] font-bold uppercase tracking-[0.4em] text-accent mb-10">Solutions</h4>
+          <h4 className="text-[15px] font-bold uppercase tracking-[0.4em] text-accent mb-10">SERVICES</h4>
           <ul className="space-y-6 text-sm font-medium tracking-widest text-white/60">
             <li><Link to="/services/debris-removal" className="hover:text-accent transition-colors">DISASTER RECOVERY</Link></li>
             <li><Link to="/services/grease-trap" className="hover:text-accent transition-colors">GREASE TRAPS CLEANING</Link></li>
@@ -191,7 +191,7 @@ export function Footer() {
         </div>
 
         <div className="lg:col-span-3">
-          <h4 className="text-[10px] font-bold uppercase tracking-[0.4em] text-accent mb-10">Company</h4>
+          <h4 className="text-[15px] font-bold uppercase tracking-[0.4em] text-accent mb-10">QUICK LINKS</h4>
           <ul className="space-y-6 text-sm font-medium tracking-widest text-white/60">
             <li><Link to="/projects" className="hover:text-accent transition-colors">PROJECTS</Link></li>
             <li><Link to="/about" className="hover:text-accent transition-colors">ABOUT US</Link></li>
