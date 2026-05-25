@@ -50,7 +50,7 @@ export default function About() {
             <div className="lg:col-span-6">
               <div className="p-4 border border-accent/30 bg-cream">
                 <div className="aspect-[4/5] bg-cream relative overflow-hidden grayscale group">
-                   <div className="absolute inset-0 flex items-center justify-center text-accent/20 font-serif text-3xl uppercase tracking-widest text-center px-10">
+                   <div className="absolute inset-0 flex items-center justify-center text-accent/20 font-serif text-3xl uppercase tracking-widest text-center px-10 overflow-hidden grayscale hover:grayscale-0 transition-all duration-1000">
                     <img src="https://marqnetworks.co/wp-content/uploads/2026/05/about.jpg" className="w-full h-full object-cover" alt="Heavy equipment" referrerPolicy="no-referrer" />
                   </div>
                 </div>
