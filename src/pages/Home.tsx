@@ -35,7 +35,7 @@ export default function Home() {
             
             <h1 className="text-6xl md:text-[7rem] mb-12 leading-tight font-serif text-white italic">
               Field-Proven. <span className="text-accent not-italic">Prime-Ready.</span> <br/>
-              <span className="not-italic">Built for What's Next.</span> Performance.
+              <span className="not-italic">Built for What's Next.</span>
             </h1>
 
             <p className="text-xl md:text-2xl text-white/60 mx-auto mb-16 font-light leading-relaxed">
