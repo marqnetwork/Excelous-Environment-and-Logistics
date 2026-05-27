@@ -65,8 +65,8 @@ export default function Home() {
             {[
               { icon: <BadgeCheck className="text-accent mx-auto mb-4" size={32} />, label: 'Rapid Response Mobilization' },
               { icon: <BadgeCheck className="text-accent mx-auto mb-4" size={32} />, label: 'Multi-State Operations' },
-              { icon: <BadgeCheck className="text-accent mx-auto mb-4" size={32} />, label: 'Scalable Operations' },
-              { icon: <BadgeCheck className="text-accent mx-auto mb-4" size={32} />, label: 'Coordinated Field Execution' },
+              { icon: <BadgeCheck className="text-accent mx-auto mb-4" size={32} />, label: 'PRIME-READY CAPACITY' },
+              { icon: <BadgeCheck className="text-accent mx-auto mb-4" size={32} />, label: 'COMPLIANCE-FIRST FIELD EXECUTION' },
             ].map((item, i) => (
               <motion.div 
                 key={item.label}
@@ -100,7 +100,7 @@ export default function Home() {
               >
                 <h3 className="text-4xl md:text-6xl font-serif text-white mb-8 italic">Disaster <span className="not-italic text-accent">Recovery.</span></h3>
                 <p className="text-lg text-white/60 mb-10 leading-relaxed font-light">
-                  Excelous Environmental & Logistics provides Disaster Recovery support services for federal, state, local, and commercial clients following natural disasters and emergency events. Our capabilities include hauling, site cleanup, emergency logistics, workforce deployment, and recovery operations support. We deliver rapid response, scalable staffing, and coordinated recovery solutions to help restore safety, accessibility, and operational continuity.
+                  When disaster hits, the clock starts immediately. Excelous Environmental & Logistics deploys hauling crews, site cleanup teams, and emergency logistics support within hours of activation — not days. We operate under federal and state disaster frameworks, supporting FEMA-coordinated response efforts and DOT infrastructure restoration with the speed and compliance that critical recovery operations demand.
                 </p>
                 <Link to="/services/debris-removal" className="inline-flex items-center gap-4 text-[10px] font-bold uppercase tracking-[0.3em] text-accent border-b border-accent pb-2 hover:text-white transition-colors">
                   Explore Capability <ArrowRight size={14} />
@@ -126,7 +126,7 @@ export default function Home() {
                 >
                   <h3 className="text-4xl md:text-6xl font-serif text-white mb-8 italic">Grease Trap <span className="not-italic text-accent">Cleaning.</span></h3>
                   <p className="text-lg text-white/60 mb-10 leading-relaxed font-light">
-                    Excelous Environmental & Logistics provides professional grease trap cleaning and maintenance services for commercial, municipal, and industrial facilities. Our services include grease trap pumping, waste removal, preventative maintenance, inspections, and environmental compliance support to help clients maintain safe, efficient, and compliant operations.
+                    A failed grease trap inspection doesn't just create a mess — it creates liability. Excelous Environmental & Logistics provides scheduled and emergency grease trap pumping, waste removal, and compliance documentation for commercial, municipal, and industrial facilities. We keep your operations clean, your records inspection-ready, and your facility on the right side of environmental regulations.
                   </p>
                   <Link to="/services/grease-trap" className="inline-flex items-center gap-4 text-[10px] font-bold uppercase tracking-[0.3em] text-accent border-b border-accent pb-2 hover:text-white transition-colors">
                     Explore Capability <ArrowRight size={14} />
@@ -143,10 +143,7 @@ export default function Home() {
               >
                 <h3 className="text-4xl md:text-6xl font-serif text-white mb-8 italic">Bulk Materials <span className="not-italic text-accent">Hauling.</span></h3>
                 <p className="text-lg text-white/60 mb-10 leading-relaxed font-light">
-                  Excelous Environmental & Logistics provides scalable bulk material hauling support for infrastructure projects, environmental operations, construction activities, and recovery-related initiatives. Our team supports coordinated transportation logistics for high-volume material movement across local, regional, and multi-site operations.
-                </p>
-                <p className="text-lg text-white/60 mb-10 leading-relaxed font-light">
-                  We support hauling operations involving dirt, gravel, stone, aggregate, sand, construction materials, and site support resources through responsive coordination and operational oversight.
+                  DOT infrastructure and recovery projects move on tight schedules — and material delays stop everything. Excelous Environmental & Logistics hauls dirt, gravel, aggregate, sand, and construction materials across local, regional, and multi-site operations with the fleet capacity and logistical coordination to keep your project on timeline. From single-site support to high-volume multi-state material movement, we scale to the contract.
                 </p>
                 <Link to="/services/debris-removal" className="inline-flex items-center gap-4 text-[10px] font-bold uppercase tracking-[0.3em] text-accent border-b border-accent pb-2 hover:text-white transition-colors">
                   Explore Capability <ArrowRight size={14} />
