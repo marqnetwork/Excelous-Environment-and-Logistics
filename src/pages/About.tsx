@@ -38,8 +38,8 @@ export default function About() {
               <p className="text-2xl font-serif text-dark mb-10 leading-relaxed italic">
                 " We built Excelous Environmental & Logistics with one purpose — to bring the discipline of federal contracting to field operations work that demands it. Every project we take on is a reflection of that standard. "
               </p>
-              <p>
-                — [Karen Swain], Founder & Managing Partner, Excelous Environmental & Logistics
+              <p className="text-2xl font-serif text-dark mb-10 leading-relaxed italic">
+                — Karen Swain, Founder & Managing Partner, Excelous Environmental & Logistics
               </p>
             </div>
           </motion.div>
