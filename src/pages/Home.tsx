@@ -75,7 +75,7 @@ export default function Home() {
                 transition={{ delay: i * 0.2 }}
               >
                 {item.icon}
-                <div className="text-[13px] font-bold tracking-[0.4em] text-accent uppercase">{item.label}</div>
+                <div className="text-[15px] font-bold tracking-[0.4em] text-accent uppercase">{item.label}</div>
               </motion.div>
             ))}
           </div>
