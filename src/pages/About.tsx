@@ -65,16 +65,13 @@ export default function About() {
               </div>
               <div className="space-y-8 font-light text-dark/70 leading-relaxed text-lg">
                 <p>
-                  Excelous Environmental & Logistics (EEL) was established to support environmental services, hauling, logistics coordination, and infrastructure support operations across commercial, institutional, and public sector environments.
+                  Excelous Environmental & Logistics was purpose-built to deliver field operations excellence on the contracts that demand it most — disaster recovery, infrastructure support, and environmental services for federal, state, and commercial clients.
                 </p>
                 <p>
-                  Our leadership team brings field-proven experience supporting disaster recovery operations, environmental services, grease trap maintenance support, workforce deployment, and large-scale operational response initiatives through prior contracts, partnerships, and teaming relationships.
+                  Founded by the leadership team behind Excelous LLC — an 8(a) and EDWOSB certified federal contractor with a proven record of performance across HUD, HHS, GSA, NASA, and Department of Interior contracts — Excelous Environmental & Logistics brings institutional credibility to heavy field operations. We understand federal contracting standards, compliance documentation, and what it takes to perform as a reliable partner at every tier of a contract.
                 </p>
                 <p>
-                  EEL was created to provide a dedicated focus on environmental operations, recovery services, logistics support, and infrastructure maintenance while continuing to build upon the operational experience, leadership, and project capabilities established through years of project execution and industry support.
-                </p>
-                <p>
-                  Today, EEL remains focused on rapid response, scalable operations, safety, compliance, and dependable service delivery for clients requiring responsive environmental and operational support solutions.
+                  Our field teams are trained, equipped, and operationally ready to mobilize across multiple states — supporting DOT infrastructure projects, FEMA-coordinated disaster response, and environmental compliance operations with the speed and accountability that critical work requires.
                 </p>
               </div>
             </div>
