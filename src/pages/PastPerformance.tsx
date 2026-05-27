@@ -99,10 +99,10 @@ export default function PastPerformance() {
             <div className="h-[1px] w-12 bg-accent" />
           </div>
           <h1 className="text-5xl md:text-[6rem] font-serif text-dark italic leading-tight">
-            Past <span className="not-italic">Performance.</span>
+            When Disaster Strikes, <span className="not-italic">We're Already Moving.</span>
           </h1>
           <p className="mt-12 text-xl font-light text-dark/60 max-w-2xl mx-auto italic leading-relaxed">
-            "A proven track record delivering disaster recovery, and environmental support services across commercial, institutional, and public sector environments."
+            "When disaster strikes, recovery doesn't happen by chance — it happens through systematic deployment, coordinated logistics, and field teams that know how to execute under pressure. We provide the operational scale that federal, state, and local recovery efforts demand."
           </p>
         </div>
       </section>
