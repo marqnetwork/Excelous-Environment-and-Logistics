@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Truck, ShieldCheck, Zap, ArrowRight, Quote, Award, Building2, Globe2 } from 'lucide-react';
+import { Truck, ShieldCheck, Zap, ArrowRight, Quote, Award, Building2, Globe2, BadgeCheck } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function Home() {
@@ -63,10 +63,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
             {[
-              { icon: <Award className="text-accent mx-auto mb-4" size={32} />, label: 'Rapid Response Mobilization' },
-              { icon: <Building2 className="text-accent mx-auto mb-4" size={32} />, label: 'Multi-State Operations' },
-              { icon: <Globe2 className="text-accent mx-auto mb-4" size={32} />, label: 'Scalable Operations' },
-              { icon: <ShieldCheck className="text-accent mx-auto mb-4" size={32} />, label: 'Coordinated Field Execution' },
+              { icon: <BadgeCheck className="text-accent mx-auto mb-4" size={32} />, label: 'Rapid Response Mobilization' },
+              { icon: <BadgeCheck className="text-accent mx-auto mb-4" size={32} />, label: 'Multi-State Operations' },
+              { icon: <BadgeCheck className="text-accent mx-auto mb-4" size={32} />, label: 'Scalable Operations' },
+              { icon: <BadgeCheck className="text-accent mx-auto mb-4" size={32} />, label: 'Coordinated Field Execution' },
             ].map((item, i) => (
               <motion.div 
                 key={item.label}
@@ -75,7 +75,7 @@ export default function Home() {
                 transition={{ delay: i * 0.2 }}
               >
                 {item.icon}
-                <div className="text-[9px] font-bold tracking-[0.4em] text-accent uppercase">{item.label}</div>
+                <div className="text-[13px] font-bold tracking-[0.4em] text-accent uppercase">{item.label}</div>
               </motion.div>
             ))}
           </div>
