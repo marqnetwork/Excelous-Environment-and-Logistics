@@ -55,7 +55,7 @@ export default function Home() {
         </div>
         
         {/* Ornaments */}
-        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[1px] h-32 bg-accent/30" />
+        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[1px] h-19 bg-accent/30" />
       </section>
 
       {/* Credibility Ribbons */}
