@@ -36,7 +36,10 @@ export default function About() {
             </h1>
             <div className="max-w-3xl mx-auto border-t border-accent/20 pt-16 mt-16">
               <p className="text-2xl font-serif text-dark mb-10 leading-relaxed italic">
-                " Excelous Environmental & Logistics delivers executive leadership and field-proven capabilities focused on maintaining institutional infrastructure, supporting environmental operations, and responding to disaster recovery and emergency response efforts. "
+                " We built Excelous Environmental & Logistics with one purpose — to bring the discipline of federal contracting to field operations work that demands it. Every project we take on is a reflection of that standard. "
+              </p>
+              <p>
+                — [Karen Swain], Founder & Managing Partner, Excelous Environmental & Logistics
               </p>
             </div>
           </motion.div>
