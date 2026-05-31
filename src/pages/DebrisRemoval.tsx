@@ -60,7 +60,7 @@ export default function DebrisRemoval() {
               Natural disasters generate massive amounts of debris and the pressure to clear it is immediate. Excelous brings the equipment, personnel, and fieldtested processes to handle response operations of any scale.
             </p>
             <div className="flex flex-wrap justify-center gap-12 font-bold tracking-[0.3em] uppercase text-[10px] text-accent pt-12 border-t border-accent/10">
-              {['North Carolina Response — Hurricane debris removal and road clearance', 'Virginia Recovery — Multi-site workforce deployment', 'Florida Mobilization — Rapid response activation within 48 hours'].map(state => (
+              {['North Carolina Response <br/> Hurricane debris removal and road clearance', 'Virginia Recovery <br/> Multi-site workforce deployment', 'Florida Mobilization <br/> Rapid response activation within 48 hours'].map(state => (
                 <span key={state} className="flex items-center gap-3">
                   <ShieldCheck size={16} /> {state}
                 </span>
