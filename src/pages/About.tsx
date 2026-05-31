@@ -82,14 +82,14 @@ export default function About() {
       {/* Values - Traditional Flow */}
       <section className="py-40 bg-cream/30">
         <div className="max-w-7xl mx-auto px-6 text-center mb-32">
-          <h2 className="text-4xl md:text-6xl font-serif text-dark italic">The Pillars of    <span className="text-accent not-italic">Excelous Environmental & Logistics.</span></h2>
+          <h2 className="text-4xl md:text-6xl font-serif text-dark italic">The Pillars of  <span className="text-accent not-italic"><br/>Excelous Environmental & Logistics.</span></h2>
           <div className="w-24 h-[1px] bg-accent mx-auto mt-8" />
         </div>
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16">
           {[
             { title: 'Customer Commitment', desc: 'Developing long-term relationships defined by deep institutional knowledge and unwavering reliability.', icon: <Heart size={32} /> },
-            { title: 'Quality of Performance', desc: 'Excellence is not measured by compliance alone, but by the tangible impact of our field operations.', icon: <ShieldCheck size={32} /> },
-            { title: 'Team Expertise', desc: 'Investing in specialized field training to ensure our teams are prepared for any environmental contingency.', icon: <Award size={32} /> },
+            { title: 'Quality of Performance', desc: 'Excelous Environmental & Logistics is not measured by compliance alone, but by the tangible impact of our field operations.', icon: <ShieldCheck size={32} /> },
+            { title: 'Team Expertise', desc: 'Investing in specialized field training so every crew member arrives prepared, certified, and ready to perform under federal and state contract standards..', icon: <Award size={32} /> },
             { title: 'Institutional Trust', desc: 'Bringing the professional standards of federal contracting to local and regional service requests.', icon: <Globe size={32} /> }
           ].map((v, i) => (
             <motion.div 
