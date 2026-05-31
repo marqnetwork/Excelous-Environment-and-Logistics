@@ -57,10 +57,10 @@ export default function DebrisRemoval() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
             <p className="text-2xl md:text-3xl font-serif text-dark italic leading-relaxed mb-12">
-              Natural disasters generate massive amounts of debris and the pressure to clear it is immediate. Excelous Environmental & Logistics provides the equipment, manpower, and professional integrity to handle events of any scale.
+              Natural disasters generate massive amounts of debris and the pressure to clear it is immediate. Excelous brings the equipment, personnel, and fieldtested processes to handle response operations of any scale.
             </p>
             <div className="flex flex-wrap justify-center gap-12 font-bold tracking-[0.3em] uppercase text-[10px] text-accent pt-12 border-t border-accent/10">
-              {['North Carolina Response', 'Virginia Recovery', 'Florida Mobilization'].map(state => (
+              {['North Carolina Response — Hurricane debris removal and road clearance', 'Virginia Recovery — Multi-site workforce deployment', 'Florida Mobilization — Rapid response activation within 48 hours'].map(state => (
                 <span key={state} className="flex items-center gap-3">
                   <ShieldCheck size={16} /> {state}
                 </span>
@@ -118,7 +118,7 @@ export default function DebrisRemoval() {
                   <h4 className="text-xl font-serif text-dark italic mb-2">Past Performance Highlights</h4>
                   <p className="text-sm font-bold uppercase tracking-widest text-accent mb-4">Proven. Coordinated. Trusted.</p>
                   <p className="text-dark/60 font-light leading-relaxed">
-                    Explore a selection of projects showcasing our experience supporting disaster recovery efforts across federal, state, local, and commercial sectors. Our work demonstrates the ability to rapidly mobilize teams, coordinate logistics and workforce support, and deliver responsive solutions that help restore operations, infrastructure, and communities following emergency events.
+                    Our past performance spans hurricane response, infrastructure debris removal, and emergency logistics across multiple states. Every project in our portfolio was executed under federal or state contract frameworks — on time, documented, and delivered.
                   </p>
                 </div>
                 <Link to="/projects" className="inline-flex items-center gap-4 text-[10px] font-bold uppercase tracking-[0.4em] text-dark border-b border-accent pb-2 hover:text-accent transition-colors">
@@ -135,7 +135,7 @@ export default function DebrisRemoval() {
         <div className="max-w-4xl mx-auto px-6 relative z-10">
           <h2 className="text-5xl md:text-[7rem] font-serif italic mb-12 leading-tight text-dark">Ready to <span className="not-italic text-accent">Mobilize.</span></h2>
           <p className="text-xl text-dark/50 mb-16 font-light leading-relaxed max-w-2xl mx-auto">
-            "Whether executing a long-term recovery plan or responding to an active environmental emergency, Excelous provides the scale you need."
+            Whether executing a long-term recovery plan or responding to an active environmental emergency, Excelous provides the scale you need.
           </p>
           <div className="flex flex-col sm:flex-row gap-8 justify-center items-center">
             <Link to="/contact" className="bg-dark text-white px-12 py-6 text-[11px] font-bold uppercase tracking-[0.4em] hover:bg-accent transition-all shadow-xl">
