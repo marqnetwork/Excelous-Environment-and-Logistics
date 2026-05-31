@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { Award, Briefcase, GraduationCap, Globe, ShieldCheck, Heart } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function About() {
   return (
@@ -102,6 +103,21 @@ export default function About() {
               <p className="text-dark/60 font-light leading-relaxed max-w-sm mx-auto">{v.desc}</p>
             </motion.div>
           ))}
+        </div>
+      </section>
+
+      {/* Emergency CTA */}
+      <section className="py-40 bg-cream text-dark text-center relative overflow-hidden">
+        <div className="max-w-4xl mx-auto px-6 relative z-10">
+          <h2 className="text-5xl md:text-[7rem] font-serif italic mb-12 leading-tight text-dark">Ready to <span className="not-italic text-accent">Partner.</span></h2>
+          <p className="text-xl text-dark/50 mb-16 font-light leading-relaxed max-w-2xl mx-auto">
+            Whether you’re a Tier 1 prime evaluating subcontractors, a state agency planning infrastructure work, or a commercial client with an environmental services need — Excelous Environmental & Logistics brings the field capacity and institutional credibility to get it done.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-8 justify-center items-center">
+            <Link to="/contact" className="bg-dark text-white px-12 py-6 text-[11px] font-bold uppercase tracking-[0.4em] hover:bg-accent transition-all shadow-xl">
+              Contact Us
+            </Link>
+          </div>
         </div>
       </section>
 
