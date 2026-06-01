@@ -11,7 +11,7 @@ const capabilities = [
   { icon: <Anchor />, title: 'Marine Salvage & Survey', desc: 'Advanced marine surveying and large-scale salvage for waterway debris and submerged infrastructure.' },
 ];
 
-export default function DebrisRemoval() {
+export default function BulkMaterialHauling() {
   return (
     <div className="bg-cream min-h-screen text-dark">
       {/* Editorial Hero */}
