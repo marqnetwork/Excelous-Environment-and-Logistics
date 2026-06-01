@@ -3,12 +3,12 @@ import { Truck, AlertTriangle, ShieldCheck, Waves, Trees, Drill, Building2, Anch
 import { Link } from 'react-router-dom';
 
 const capabilities = [
-  { icon: <AlertTriangle />, title: 'Storm & Hurricane Response', desc: 'Large-scale collection of vegetative and construction debris following severe weather events. FEMA-compliant.' },
-  { icon: <Truck />, title: 'Full-Cycle Disaster Recovery', desc: 'Site assessment, debris categorization, haul-off, and certified disposal for municipal environments.' },
-  { icon: <Trees />, title: 'Emergency Tree Management', desc: 'Certified crews equipped with heavy-duty machinery for systematic assessment and removal of hazardous trees.' },
-  { icon: <Drill />, title: 'Bulk Material Hauling', desc: '' },
-  { icon: <Building2 />, title: 'Right-of-Way Operations', desc: 'Clearing of roadways and public infrastructure pathways to ensure access for emergency response teams.' },
-  { icon: <Anchor />, title: 'Marine Salvage & Survey', desc: 'Advanced marine surveying and large-scale salvage for waterway debris and submerged infrastructure.' },
+  { icon: <AlertTriangle />, title: 'Dirt, Gravel & Aggregate Hauling', desc: 'High-volume transport of dirt, gravel, crushed stone, and aggregate materials for DOT road construction, site grading, and infrastructure restoration projects.' },
+  { icon: <Truck />, title: 'Sand & Fill Material Transport', desc: 'Coordinated hauling of sand and fill materials for foundation work, drainage projects, and post-disaster site stabilization operations.' },
+  { icon: <Trees />, title: 'Construction Debris Removal', desc: 'Scheduled and on-demand removal of construction waste, demolished materials, and site debris to keep active project sites clear and compliant.' },
+  { icon: <Drill />, title: 'Disaster Recovery Material Hauling', desc: 'Rapid mobilization of hauling capacity for debris removal, recovery material transport, and infrastructure restoration following FEMA-declared disaster events.' },
+  { icon: <Building2 />, title: 'Multi-Site Logistics Coordination', desc: 'Coordinated material movement across multiple project sites and jurisdictions. Scheduling, routing, and documentation managed to meet federal and state contract requirements' },
+  { icon: <Anchor />, title: 'Asphalt & Road Material Hauling', desc: 'Transport of asphalt, base course materials, and road construction supplies for DOT paving, resurfacing, and infrastructure repair projects.' },
 ];
 
 export default function BulkMaterialHauling() {
@@ -37,15 +37,15 @@ export default function BulkMaterialHauling() {
           >
             <div className="inline-flex items-center gap-6 mb-12">
               <div className="h-[1px] w-12 bg-accent" />
-              <span className="text-accent font-bold tracking-[0.4em] text-[10px] uppercase">Strategic Response</span>
+              <span className="text-accent font-bold tracking-[0.4em] text-[10px] uppercase">INFRASTRUCTURE LOGISTICS</span>
               <div className="h-[1px] w-12 bg-accent" />
             </div>
             <h1 className="text-5xl md:text-[5rem] mb-12 font-serif italic text-dark leading-tight">
-              Disaster <span className="not-italic">&</span> Recovery<br/>
+              Bulk Materials <span className="not-italic">Hauling</span><br/>
               At <span className="not-italic text-accent">Scale.</span>
             </h1>
             <p className="text-xl text-dark/60 max-w-2xl mx-auto font-light leading-relaxed mb-16 italic">
-              "When disaster strikes, the foundation of recovery is systematic. We provide the operational scale to restore community safety and municipal order."
+              "DOT infrastructure and recovery projects move on tight schedules — and material delays stop everything. We provide the fleet capacity and logistical coordination to keep your project on timeline."
             </p>
           </motion.div>
         </div>
@@ -57,7 +57,7 @@ export default function BulkMaterialHauling() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
             <p className="text-2xl md:text-3xl font-serif text-dark italic leading-relaxed mb-12">
-              Natural disasters generate massive amounts of debris and the pressure to clear it is immediate. Excelous Environmental & Logistics provides the equipment, manpower, and professional integrity to handle events of any scale.
+              DOT infrastructure and recovery projects move on tight schedules — and material delays stop everything. Excelous hauls dirt, gravel, aggregate, sand, and construction materials across local, regional, and multi-site operations with the fleet capacity and logistical coordination to keep your project on timeline. From single-site support to high-volume multi-state material movement, we scale to the contract.
             </p>
             <div className="flex flex-wrap justify-center gap-12 font-bold tracking-[0.3em] uppercase text-[10px] text-accent pt-12 border-t border-accent/10">
               {['North Carolina Response', 'Virginia Recovery', 'Florida Mobilization'].map(state => (
@@ -74,7 +74,7 @@ export default function BulkMaterialHauling() {
       <section className="py-40 bg-cream/30 border-y border-accent/10">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-32">
-            <h2 className="text-4xl md:text-6xl font-serif text-dark italic">Service <span className="text-accent not-italic">Capabilities.</span></h2>
+            <h2 className="text-4xl md:text-6xl font-serif text-dark italic">Operational <span className="text-accent not-italic">Capabilities.</span></h2>
             <div className="w-24 h-[1px] bg-accent mx-auto mt-8" />
           </div>
 
@@ -105,7 +105,7 @@ export default function BulkMaterialHauling() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-24 items-center">
             <div className="lg:col-span-12 mb-12">
                <div className="text-accent font-bold tracking-[0.4em] text-[10px] uppercase mb-4">Past Performance Highlights</div>
-               <h2 className="text-4xl md:text-[4rem] font-serif text-dark italic leading-tight">Field proven recovery<br/>operations.</h2>
+               <h2 className="text-4xl md:text-[4rem] font-serif text-dark italic leading-tight">Field-Proven Hauling<br/>operations.</h2>
             </div>
             <div className="lg:col-span-7">
                <div className="p-4 border border-accent/20 mb-8 lg:mb-0 bg-cream/20">
@@ -116,9 +116,9 @@ export default function BulkMaterialHauling() {
               <div className="space-y-12">
                 <div className="border-l-4 border-accent pl-10 py-4">
                   <h4 className="text-xl font-serif text-dark italic mb-2">Past Performance Highlights</h4>
-                  <p className="text-sm font-bold uppercase tracking-widest text-accent mb-4">Proven. Coordinated. Trusted.</p>
+                  <p className="text-sm font-bold uppercase tracking-widest text-accent mb-4">RELIABLE. SCALABLE. ON SCHEDULE.</p>
                   <p className="text-dark/60 font-light leading-relaxed">
-                    Explore a selection of projects showcasing our experience supporting disaster recovery efforts across federal, state, local, and commercial sectors. Our work demonstrates the ability to rapidly mobilize teams, coordinate logistics and workforce support, and deliver responsive solutions that help restore operations, infrastructure, and communities following emergency events.
+                    Our hauling operations span DOT infrastructure projects, post-disaster debris removal, and commercial construction support across multiple states. Every engagement is executed with the fleet capacity, scheduling discipline, and compliance documentation that federal and state contracts require.
                   </p>
                 </div>
                 <Link to="/projects" className="inline-flex items-center gap-4 text-[10px] font-bold uppercase tracking-[0.4em] text-dark border-b border-accent pb-2 hover:text-accent transition-colors">
@@ -133,9 +133,9 @@ export default function BulkMaterialHauling() {
       {/* Emergency CTA */}
       <section className="py-40 bg-cream text-dark text-center relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 relative z-10">
-          <h2 className="text-5xl md:text-[7rem] font-serif italic mb-12 leading-tight text-dark">Ready to <span className="not-italic text-accent">Mobilize.</span></h2>
+          <h2 className="text-5xl md:text-[7rem] font-serif italic mb-12 leading-tight text-dark">Ready to <span className="not-italic text-accent">Move.</span></h2>
           <p className="text-xl text-dark/50 mb-16 font-light leading-relaxed max-w-2xl mx-auto">
-            "Whether executing a long-term recovery plan or responding to an active environmental emergency, Excelous provides the scale you need."
+            Whether you’re managing a multi-state DOT contract, responding to a disaster activation, or running a commercial construction project on a tight timeline — Excelous provides the fleet capacity, the coordination, and the documentation to keep materials moving and projects on schedule.
           </p>
           <div className="flex flex-col sm:flex-row gap-8 justify-center items-center">
             <Link to="/contact" className="bg-dark text-white px-12 py-6 text-[11px] font-bold uppercase tracking-[0.4em] hover:bg-accent transition-all shadow-xl">
