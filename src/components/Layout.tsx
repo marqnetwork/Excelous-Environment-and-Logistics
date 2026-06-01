@@ -11,7 +11,7 @@ const navItems = [
     dropdown: [
       { name: 'Disaster Recovery', path: '/services/debris-removal' },
       { name: 'Grease Trap Cleaning', path: '/services/grease-trap' }, 
-      { name: 'Bulk Material Hauling', path: '/services/bulk-material-hauling' },
+      { name: 'Bulk Material Hauling', path: '/services/bulk-materials-hauling' },
     ]
   },
   { name: 'Projects', path: '/projects' },
