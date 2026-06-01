@@ -7,17 +7,17 @@ const capabilities = [
   { icon: <Truck />, title: 'Sand & Fill Material Transport', desc: 'Coordinated hauling of sand and fill materials for foundation work, drainage projects, and post-disaster site stabilization operations.' },
   { icon: <Trees />, title: 'Construction Debris Removal', desc: 'Scheduled and on-demand removal of construction waste, demolished materials, and site debris to keep active project sites clear and compliant.' },
   { icon: <Drill />, title: 'Disaster Recovery Material Hauling', desc: 'Rapid mobilization of hauling capacity for debris removal, recovery material transport, and infrastructure restoration following FEMA-declared disaster events.' },
-  { icon: <Building2 />, title: 'Multi-Site Logistics Coordination', desc: 'Coordinated material movement across multiple project sites and jurisdictions. Scheduling, routing, and documentation managed to meet federal and state contract requirements' },
+  { icon: <Building2 />, title: 'Multi-Site Logistics Coordination', desc: 'Coordinated material movement across multiple project sites and jurisdictions. Scheduling, routing, and documentation managed to meet federal and state contract requirements.' },
   { icon: <Anchor />, title: 'Asphalt & Road Material Hauling', desc: 'Transport of asphalt, base course materials, and road construction supplies for DOT paving, resurfacing, and infrastructure repair projects.' },
 ];
 
 const serve = [
-  { icon: <AlertTriangle />, title: 'Dirt, Gravel & Aggregate Hauling', desc: 'High-volume transport of dirt, gravel, crushed stone, and aggregate materials for DOT road construction, site grading, and infrastructure restoration projects.' },
-  { icon: <Truck />, title: 'Sand & Fill Material Transport', desc: 'Coordinated hauling of sand and fill materials for foundation work, drainage projects, and post-disaster site stabilization operations.' },
-  { icon: <Trees />, title: 'Construction Debris Removal', desc: 'Scheduled and on-demand removal of construction waste, demolished materials, and site debris to keep active project sites clear and compliant.' },
-  { icon: <Drill />, title: 'Disaster Recovery Material Hauling', desc: 'Rapid mobilization of hauling capacity for debris removal, recovery material transport, and infrastructure restoration following FEMA-declared disaster events.' },
-  { icon: <Building2 />, title: 'Multi-Site Logistics Coordination', desc: 'Coordinated material movement across multiple project sites and jurisdictions. Scheduling, routing, and documentation managed to meet federal and state contract requirements' },
-  { icon: <Anchor />, title: 'Asphalt & Road Material Hauling', desc: 'Transport of asphalt, base course materials, and road construction supplies for DOT paving, resurfacing, and infrastructure repair projects.' },
+  { icon: <AlertTriangle />, title: 'State & Federal DOT', desc: 'Road construction, resurfacing, and infrastructure restoration projects requiring reliable high-volume material transport and DOT-compliant documentation.' },
+  { icon: <Truck />, title: 'FEMA Disaster Recovery Operations', desc: 'Rapid-mobilization hauling support for debris removal and infrastructure restoration following federally declared disaster events.' },
+  { icon: <Trees />, title: 'Tier 1 Prime Contractors', desc: 'Scalable subcontract hauling capacity that meets the documentation, compliance, and scheduling standards of large federal and state prime contracts.' },
+  { icon: <Drill />, title: 'General Contractors', desc: 'On-call and scheduled hauling for commercial and industrial construction projects requiring flexible capacity and reliable delivery coordination.' },
+  { icon: <Building2 />, title: 'Environmental & Remediation Firms', desc: 'Material transport support for environmental cleanup, soil remediation, and site restoration projects operating under federal and state oversight.' },
+  { icon: <Anchor />, title: 'Municipal Public Works', desc: 'Hauling support for municipal infrastructure maintenance, road repair, and public works projects at the local and regional level.' },
 ];
 
 export default function BulkMaterialHauling() {
