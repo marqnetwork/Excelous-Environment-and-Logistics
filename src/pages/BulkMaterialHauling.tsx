@@ -11,6 +11,15 @@ const capabilities = [
   { icon: <Anchor />, title: 'Asphalt & Road Material Hauling', desc: 'Transport of asphalt, base course materials, and road construction supplies for DOT paving, resurfacing, and infrastructure repair projects.' },
 ];
 
+const serve = [
+  { icon: <AlertTriangle />, title: 'Dirt, Gravel & Aggregate Hauling', desc: 'High-volume transport of dirt, gravel, crushed stone, and aggregate materials for DOT road construction, site grading, and infrastructure restoration projects.' },
+  { icon: <Truck />, title: 'Sand & Fill Material Transport', desc: 'Coordinated hauling of sand and fill materials for foundation work, drainage projects, and post-disaster site stabilization operations.' },
+  { icon: <Trees />, title: 'Construction Debris Removal', desc: 'Scheduled and on-demand removal of construction waste, demolished materials, and site debris to keep active project sites clear and compliant.' },
+  { icon: <Drill />, title: 'Disaster Recovery Material Hauling', desc: 'Rapid mobilization of hauling capacity for debris removal, recovery material transport, and infrastructure restoration following FEMA-declared disaster events.' },
+  { icon: <Building2 />, title: 'Multi-Site Logistics Coordination', desc: 'Coordinated material movement across multiple project sites and jurisdictions. Scheduling, routing, and documentation managed to meet federal and state contract requirements' },
+  { icon: <Anchor />, title: 'Asphalt & Road Material Hauling', desc: 'Transport of asphalt, base course materials, and road construction supplies for DOT paving, resurfacing, and infrastructure repair projects.' },
+];
+
 export default function BulkMaterialHauling() {
   return (
     <div className="bg-cream min-h-screen text-dark">
@@ -80,6 +89,35 @@ export default function BulkMaterialHauling() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-accent/10 border border-accent/10 shadow-sm">
             {capabilities.map((cap, i) => (
+              <motion.div 
+                key={cap.title}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.1 }}
+                className="bg-white p-12 hover:bg-cream/50 transition-colors group"
+              >
+                <div className="text-accent mb-10 group-hover:scale-110 transition-transform duration-500">
+                  {cap.icon}
+                </div>
+                <h3 className="text-2xl font-serif text-dark mb-6">{cap.title}</h3>
+                <p className="text-dark/50 font-light leading-relaxed">{cap.desc}</p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Serve Grid - Classic Flow */}
+      <section className="py-40 bg-cream/30 border-y border-accent/10">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-32">
+            <h2 className="text-4xl md:text-6xl font-serif text-dark italic">Who We <span className="text-accent not-italic">Serve.</span></h2>
+            <div className="w-24 h-[1px] bg-accent mx-auto mt-8" />
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-accent/10 border border-accent/10 shadow-sm">
+            {serve.map((cap, i) => (
               <motion.div 
                 key={cap.title}
                 initial={{ opacity: 0 }}
