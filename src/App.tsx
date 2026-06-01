@@ -4,6 +4,7 @@ import { Header, Footer } from './components/Layout';
 import Home from './pages/Home';
 import DebrisRemoval from './pages/DebrisRemoval';
 import GreaseTrap from './pages/GreaseTrap';
+import BulkMaterialHauling from './pages/BulkMaterialHauling';
 import PastPerformance from './pages/PastPerformance';
 import Industries from './pages/Industries';
 import About from './pages/About';
@@ -28,6 +29,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/services/debris-removal" element={<DebrisRemoval />} />
             <Route path="/services/grease-trap" element={<GreaseTrap />} />
+            <Route path="/services/bulk-materials-hauling" element={<BulkMaterialHauling />} />
             <Route path="/projects" element={<PastPerformance />} />
             <Route path="/industries" element={<Industries />} />
             <Route path="/about" element={<About />} />
