@@ -97,7 +97,7 @@ export default function GreaseTrap() {
             <div className="w-24 h-[1px] bg-accent mx-auto mt-8" />
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-accent/10 border border-accent/10 shadow-sm">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-accent/10 border border-accent/10 shadow-sm">
             {services.map((service, i) => (
               <motion.div 
                 key={service.title}
@@ -127,7 +127,7 @@ export default function GreaseTrap() {
             <div className="w-24 h-[1px] bg-accent mx-auto mt-8" />
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-accent/10 border border-accent/10 shadow-sm">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-accent/10 border border-accent/10 shadow-sm">
             {facilities.map((service, i) => (
               <motion.div 
                 key={service.title}
