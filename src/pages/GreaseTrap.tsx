@@ -3,10 +3,12 @@ import { Activity, ShieldCheck, Clock, FileText, Settings, Trash2, CheckCircle2,
 import { Link } from 'react-router-dom';
 
 const services = [
-  { icon: <Activity />, title: 'Pumping & Cleaning', desc: 'Precise extraction of fats, oils, and grease (FOG) followed by thorough wall and pipe sanitation.' },
-  { icon: <ShieldCheck />, title: 'Inspection & Compliance', desc: 'Verified reports formatted to meet specific regional pretreatment requirements after every field visit.' },
-  { icon: <Settings />, title: 'Operational Repair', desc: 'On-site remediation or replacement of damaged interceptor components to ensure continuous flow.' },
-  { icon: <Trash2 />, title: 'Installation Services', desc: 'Total coordination for new or upgraded indoor and outdoor grease interceptors for institutional kitchens.' },
+  { icon: <Activity />, title: 'Grease Trap Pumping & Cleaning', desc: 'Complete removal of fats, oils, and grease (FOG) accumulation from commercial and institutional grease traps. Scheduled service programs and emergency response available.' },
+  { icon: <ShieldCheck />, title: 'Waste Removal & Certified Disposal', desc: 'Compliant transport and disposal of grease trap waste in accordance with local, state, and federal environmental regulations. Full documentation provided.' },
+  { icon: <Settings />, title: 'Inspection & Compliance Reporting', desc: 'On-site inspection, condition assessment, and compliance reporting to support FOG ordinance requirements and municipal pretreatment program documentation.' },
+  { icon: <Trash2 />, title: 'Preventative Maintenance Programs', desc: 'Customized scheduled maintenance plans to prevent backups, overflows, and inspection failures. Service intervals calibrated to facility usage and regulatory requirements.' },
+  { icon: <Activity />, title: 'Repair & Installation Services', desc: 'Repair of damaged or underperforming grease traps and installation of new units for facilities undergoing renovation or capacity expansion.' },
+  { icon: <ShieldCheck />, title: 'On-Site Remediation', desc: 'Remediation services for facilities experiencing FOG-related compliance violations, backups, or environmental incidents requiring immediate corrective action.' },
 ];
 
 export default function GreaseTrap() {
@@ -35,15 +37,14 @@ export default function GreaseTrap() {
           >
             <div className="inline-flex items-center gap-6 mb-12">
               <div className="h-[1px] w-12 bg-accent" />
-              <span className="text-accent font-bold tracking-[0.4em] text-[10px] uppercase">Infrastructure Integrity</span>
+              <span className="text-accent font-bold tracking-[0.4em] text-[10px] uppercase">ENVIRONMENTAL COMPLIANCE</span>
               <div className="h-[1px] w-12 bg-accent" />
             </div>
             <h1 className="text-5xl md:text-[6rem] mb-12 font-serif italic text-dark leading-tight">
-              <span className="not-italic text-accent">Grease Trap Solutions</span><br/>
-              Built for Operational <span className="not-italic">Reliability.</span> 
+              <span className="not-italic">Grease Trap </span><span className="not-italic text-accent">Compliance.</span> 
             </h1>
             <p className="text-xl text-dark/60 max-w-2xl mx-auto font-light leading-relaxed mb-16 italic">
-              "Comprehensive maintenance and compliance solutions that keep your culinary operations odor-free and systematically compliant."
+              "A failed grease trap inspection doesn’t just create a mess — it creates liability. We keep your operations clean, your records inspection-ready, and your facility on the right side of environmental regulations."
             </p>
           </motion.div>
         </div>
@@ -60,10 +61,7 @@ export default function GreaseTrap() {
               </div>
               <div className="space-y-8 text-xl font-light text-dark/60 leading-relaxed italic">
                 <p>
-                  "Grease traps are a critical foundation of any institutional kitchen. When neglected, they risk foul odors, health code violations, and costly operational delays."
-                </p>
-                <p>
-                  Excelous Environmental & Logistics delivers the executive rigor of federal contracting to your scheduled maintenance program, ensuring absolute compliance through licensed field expertise.
+                  "A failed grease trap inspection doesn’t just create a mess — it creates liability. Excelous provides scheduled and emergency grease trap pumping, waste removal, and compliance documentation for commercial, municipal, and industrial facilities. We keep your operations clean, your records inspection-ready, and your facility on the right side of environmental regulations.
                 </p>
               </div>
             </div>
