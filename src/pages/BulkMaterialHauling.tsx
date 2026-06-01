@@ -21,9 +21,9 @@ export default function DebrisRemoval() {
             initial={{ scale: 1.1 }}
             animate={{ scale: 1 }}
             transition={{ duration: 15, repeat: Infinity, repeatType: "reverse", ease: "linear" }}
-            src="https://marqnetworks.co/wp-content/uploads/2026/05/Debris-removal.webp" 
+            src="https://marqnetworks.co/wp-content/uploads/2026/06/bulk-materia-hero-banner.jpg" 
             className="w-full h-full object-cover brightness-[0.7] opacity-60"
-            alt="Recovery background"
+            alt="Bulk Material Hauling"
             referrerPolicy="no-referrer"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-cream/20 via-cream/60 to-cream" />
