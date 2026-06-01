@@ -11,6 +11,16 @@ const services = [
   { icon: <ShieldCheck />, title: 'On-Site Remediation', desc: 'Remediation services for facilities experiencing FOG-related compliance violations, backups, or environmental incidents requiring immediate corrective action.' },
 ];
 
+const facilities = [
+  { icon: <Activity />, title: 'Hotels & Hospitality', desc: 'High-volume kitchen operations with strict health code and municipal FOG compliance requirements.' },
+  { icon: <ShieldCheck />, title: 'Universities & Institutions', desc: 'Large-scale food service operations across multiple dining facilities requiring coordinated maintenance schedules.' },
+  { icon: <Settings />, title: 'Hospitals & Healthcare Facilities', desc: 'Compliance-critical environments where service disruption and inspection failures carry significant regulatory risk.' },
+  { icon: <Trash2 />, title: 'Corporate Campuses & Office Parks', desc: 'On-site dining and cafeteria operations requiring scheduled maintenance and documentation for facilities management teams.' },
+  { icon: <Activity />, title: 'Municipal & Government Facilities', desc: 'Government-operated facilities requiring FOG compliance documentation that meets public sector reporting standards.' },
+  { icon: <ShieldCheck />, title: 'Restaurants & Food Service Chains', desc: 'Single and multi-location commercial food service operations requiring reliable scheduled service and emergency response coverage.' },
+];
+
+
 export default function GreaseTrap() {
   return (
     <div className="bg-cream min-h-screen text-dark">
@@ -108,6 +118,36 @@ export default function GreaseTrap() {
         </div>
       </section>
 
+      {/* Facilities Grid */}
+      <section className="py-40 bg-cream/30 border-y border-accent/10">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-32">
+            <h2 className="text-4xl md:text-6xl font-serif text-dark italic">Facilities We <span className="text-accent not-italic">Serve.</span></h2>
+            <p>Any facility that prepares or serves food at scale has a grease trap compliance obligation. We serve the full range</p>
+            <div className="w-24 h-[1px] bg-accent mx-auto mt-8" />
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-accent/10 border border-accent/10 shadow-sm">
+            {facilities.map((service, i) => (
+              <motion.div 
+                key={service.title}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.1 }}
+                className="bg-white p-12 hover:bg-cream/50 transition-colors group"
+              >
+                <div className="text-accent mb-10 group-hover:scale-110 transition-transform">
+                  {service.icon}
+                </div>
+                <h3 className="text-2xl font-serif text-dark mb-6">{service.title}</h3>
+                <p className="text-dark/60 font-light leading-relaxed">{service.desc}</p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Industries Served */}
       <section className="py-40 bg-white text-dark">
         <div className="max-w-7xl mx-auto px-6">
@@ -140,10 +180,10 @@ export default function GreaseTrap() {
         <div className="max-w-4xl mx-auto px-6">
           <div className="w-[1px] h-24 bg-accent mx-auto mb-12" />
           <h2 className="text-4xl md:text-6xl font-serif text-dark mb-12 italic leading-tight">
-            Initiate a <span className="not-italic text-accent">Maintenance</span> Plan.
+            Initiate a <span className="not-italic text-accent">Maintenance Plan.</span>
           </h2>
           <p className="text-xl text-dark/50 font-light mb-16 leading-relaxed">
-            Protect your institutional operations from the risks of neglected environmental infrastructure.
+            Whether you need a scheduled maintenance program, a compliance audit, or emergency service, Excelous delivers the documentation, the certified disposal, and the reliability your facility depends on.
           </p>
           <div className="flex flex-col sm:flex-row gap-8 justify-center items-center">
             <Link 
