@@ -113,6 +113,7 @@ export default function BulkMaterialHauling() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-32">
             <h2 className="text-4xl md:text-6xl font-serif text-dark italic">Who We <span className="text-accent not-italic">Serve.</span></h2>
+            <p>From federal infrastructure contracts to commercial construction sites, we move the materials that keep projects moving.</p>
             <div className="w-24 h-[1px] bg-accent mx-auto mt-8" />
           </div>
 
