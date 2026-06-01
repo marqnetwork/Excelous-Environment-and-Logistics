@@ -12,7 +12,7 @@ export default function Home() {
             initial={{ scale: 1.1 }}
             animate={{ scale: 1 }}
             transition={{ duration: 15, repeat: Infinity, repeatType: "reverse", ease: "linear" }}
-            src="https://images.unsplash.com/photo-1516937941344-00b4e0337589?auto=format&fit=crop&q=80&w=2000" 
+            src="https://marqnetworks.co/wp-content/uploads/2026/06/home-pg-hero-banner.jpg" 
             className="w-full h-full object-cover brightness-[0.6] opacity-60"
             alt="Industrial background"
             referrerPolicy="no-referrer"
