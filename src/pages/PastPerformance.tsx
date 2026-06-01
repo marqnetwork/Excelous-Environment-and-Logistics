@@ -15,7 +15,7 @@ const projects = [
       'Safety Management: Implementing slope-specific safety protocols for crew members.',
       'Environmental Protection: Minimizing disruption to wildlife and drainage systems during the cleanup.'
     ],
-    image: 'https://marqnetworks.co/wp-content/uploads/2026/05/debris.jpg'
+    image: 'https://marqnetworks.co/wp-content/uploads/2026/06/replace-3.jpg'
   },
   {
     title: 'Debris Removal and Hauling',
@@ -42,7 +42,7 @@ const projects = [
       'Implementation of debris management strategies, including eco-friendly disposal and recycling of tree materials.',
       'Execution of safety protocols to protect workers and local communities during operations.'
     ],
-    image: 'https://marqnetworks.co/wp-content/uploads/2026/05/EL-Pic-11.jpg'
+    image: 'https://marqnetworks.co/wp-content/uploads/2026/06/replace-1.jpg'
   },
   {
     title: 'Debris Removal and Hauling',
@@ -56,7 +56,7 @@ const projects = [
       'Workforce and logistics support designed to scale with changing project requirements.',
       'Ongoing coordination with contractors and project stakeholders to support timely material movement and site operations.'
     ],
-    image: 'https://marqnetworks.co/wp-content/uploads/2026/05/EL-Pic-11.jpg'
+    image: 'https://marqnetworks.co/wp-content/uploads/2026/06/replace-2.jpg'
   },
   {
     title: 'Grease Trap Maintenance',
@@ -70,7 +70,7 @@ const projects = [
       'Support for environmental compliance and sanitary maintenance requirements.',
       'Responsive field support and operational coordination for ongoing facility maintenance needs.'
     ],
-    image: 'https://marqnetworks.co/wp-content/uploads/2026/05/grease1.jpg'
+    image: 'https://marqnetworks.co/wp-content/uploads/2026/06/grease-traps-logo.jpeg'
   }
 ];
 
