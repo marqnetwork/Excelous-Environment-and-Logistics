@@ -54,7 +54,7 @@ export default function Contact() {
             {/* Contact Details */}
             <div className="lg:col-span-4 space-y-12">
               <div className="p-12 border border-accent/30 bg-cream/20 text-dark shadow-sm">
-                <h3 className="text-2xl font-serif mb-12 italic border-b border-accent/20 pb-4">Operational Contacts</h3>
+                <h3 className="text-2xl font-serif mb-12 border-b border-accent/20 pb-4">Operational Contacts</h3>
                 <div className="space-y-12">
                   <div className="flex gap-6 items-start">
                     <Mail className="text-accent shrink-0 mt-1" size={24} />
