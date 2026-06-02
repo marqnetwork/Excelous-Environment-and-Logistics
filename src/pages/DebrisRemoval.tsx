@@ -3,12 +3,12 @@ import { Truck, AlertTriangle, ShieldCheck, Waves, Trees, Drill, Building2, Anch
 import { Link } from 'react-router-dom';
 
 const capabilities = [
-  { icon: <AlertTriangle />, title: 'Storm & Hurricane Response', desc: 'Large-scale collection of vegetative and construction debris following severe weather events. FEMA-compliant.' },
-  { icon: <Truck />, title: 'Full-Cycle Disaster Recovery', desc: 'Site assessment, debris categorization, haul-off, and certified disposal for municipal environments.' },
-  { icon: <Trees />, title: 'Emergency Tree Management', desc: 'Certified crews equipped with heavy-duty machinery for systematic assessment and removal of hazardous trees.' },
-  { icon: <Drill />, title: 'Bulk Material Hauling', desc: '' },
-  { icon: <Building2 />, title: 'Right-of-Way Operations', desc: 'Clearing of roadways and public infrastructure pathways to ensure access for emergency response teams.' },
-  { icon: <Anchor />, title: 'Marine Salvage & Survey', desc: 'Advanced marine surveying and large-scale salvage for waterway debris and submerged infrastructure.' },
+  { icon: <AlertTriangle />, title: 'Storm & Hurricane Response', desc: 'FEMA-compliant collection and removal of vegetative and construction debris following severe weather events. Crews deploy rapidly with the equipment and capacity to handle large-scale post-storm operations.' },
+  { icon: <Truck />, title: 'Full-Cycle Disaster Recovery', desc: 'Site assessment, debris categorization, haul-off, and certified disposal across federal, state, and local project environments. We manage the full recovery process from initial assessment through final documentation.' },
+  { icon: <Trees />, title: 'Emergency Tree Management', desc: 'Certified crews equipped with heavy-duty machinery for systematic assessment and removal of hazardous trees. FEMA-eligible work type with full documentation support.' },
+  { icon: <Drill />, title: 'Bulk Material Hauling', desc: 'High-volume haul-off of disaster debris, construction materials, and recovery-related materials across single and multi-site operations. Fleet capacity scaled to contract requirements.' },
+  { icon: <Building2 />, title: 'Right-of-Way Operations', desc: 'DOT-coordinated clearing of roadways and public infrastructure pathways to restore access for emergency response teams, utility crews, and the public.' },
+  { icon: <Anchor />, title: 'Marine Salvage & Survey', desc: 'Advanced marine surveying and large-scale salvage operations for waterway debris and submerged infrastructure. A differentiated capability supporting coastal and flood-affected disaster response.' },
 ];
 
 export default function DebrisRemoval() {
@@ -41,11 +41,11 @@ export default function DebrisRemoval() {
               <div className="h-[1px] w-12 bg-accent" />
             </div>
             <h1 className="text-5xl md:text-[5rem] mb-12 font-serif italic text-dark leading-tight">
-              Disaster <span className="not-italic">&</span> Recovery<br/>
+              Disaster <span className="not-italic">&</span> Response. <br/>
               At <span className="not-italic text-accent">Scale.</span>
             </h1>
             <p className="text-xl text-dark/60 max-w-2xl mx-auto font-light leading-relaxed mb-16 italic">
-              "When disaster strikes, the foundation of recovery is systematic. We provide the operational scale to restore community safety and municipal order."
+              When disaster strikes, recovery doesn’t happen by chance — it happens through systematic deployment, coordinated logistics, and field teams that know how to execute under pressure. We provide the operational scale that federal, state, and local recovery efforts demand.”
             </p>
           </motion.div>
         </div>
@@ -57,7 +57,7 @@ export default function DebrisRemoval() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
             <p className="text-2xl md:text-3xl font-serif text-dark italic leading-relaxed mb-12">
-              Natural disasters generate massive amounts of debris and the pressure to clear it is immediate. Excelous brings the equipment, personnel, and fieldtested processes to handle response operations of any scale.
+              When disaster hits, the clock starts immediately. Excelous deploys hauling crews, site cleanup teams, and emergency logistics support within hours of activation — not days. We operate under federal and state disaster frameworks, supporting FEMA-coordinated response efforts and DOT infrastructure restoration with the speed and compliance that critical recovery operations demand.
             </p>
             <div className="flex flex-wrap justify-center gap-12 font-bold tracking-[0.3em] uppercase text-[10px] text-accent pt-12 border-t border-accent/10">
               {['North Carolina Response - Hurricane debris removal and road clearance', 'Virginia Recovery - Multi-site workforce deployment', 'Florida Mobilization - Rapid response activation within 48 hours'].map(state => (
@@ -135,7 +135,7 @@ export default function DebrisRemoval() {
         <div className="max-w-4xl mx-auto px-6 relative z-10">
           <h2 className="text-5xl md:text-[7rem] font-serif italic mb-12 leading-tight text-dark">Ready to <span className="not-italic text-accent">Mobilize.</span></h2>
           <p className="text-xl text-dark/50 mb-16 font-light leading-relaxed max-w-2xl mx-auto">
-            Whether executing a long-term recovery plan or responding to an active environmental emergency, Excelous provides the scale you need.
+            Whether executing a long-term recovery plan or responding to an active emergency, Excelous provides the field capacity, compliance documentation, and operational scale your project demands.
           </p>
           <div className="flex flex-col sm:flex-row gap-8 justify-center items-center">
             <Link to="/contact" className="bg-dark text-white px-12 py-6 text-[11px] font-bold uppercase tracking-[0.4em] hover:bg-accent transition-all shadow-xl">
