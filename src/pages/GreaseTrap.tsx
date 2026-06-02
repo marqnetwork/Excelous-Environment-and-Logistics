@@ -50,15 +50,15 @@ export default function GreaseTrap() {
               <span className="text-accent font-bold tracking-[0.4em] text-[10px] uppercase">ENVIRONMENTAL COMPLIANCE</span>
               <div className="h-[1px] w-12 bg-accent" />
             </div>
-            <h1 className="text-5xl md:text-[6rem] mb-12 font-serif italic text-dark leading-tight">
+            <h1 className="text-6xl md:text-[7rem] mb-12 font-serif italic text-dark leading-tight">
               <span className="not-italic">Grease Trap </span><span className="not-italic text-accent">Compliance.</span> 
             </h1>
-            <p className="text-xl text-dark/60 max-w-2xl mx-auto font-light leading-relaxed mb-16 italic">
+            <p className="text-xl md:text-2xl text-dark/60 max-w-1xl mx-auto font-light leading-relaxed mb-16 italic">
               "A failed grease trap inspection doesn’t just create a mess — it creates liability. We keep your operations clean, your records inspection-ready, and your facility on the right side of environmental regulations."
             </p>
           </motion.div>
         </div>
-        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[1px] h-24 bg-accent/30" />
+        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[1px] h-9 bg-accent/30" />
       </section>
 
       {/* Narrative Section */}
