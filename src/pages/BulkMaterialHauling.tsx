@@ -49,7 +49,7 @@ export default function BulkMaterialHauling() {
               <span className="text-accent font-bold tracking-[0.4em] text-[10px] uppercase">INFRASTRUCTURE LOGISTICS</span>
               <div className="h-[1px] w-12 bg-accent" />
             </div>
-            <h1 className="text-5xl md:text-[5rem] mb-12 font-serif italic text-dark leading-tight">
+            <h1 className="text-6xl md:text-[7rem] mb-12 font-serif italic text-dark leading-tight">
               Bulk Materials <span className="not-italic">Hauling</span><br/>
               At <span className="not-italic text-accent">Scale.</span>
             </h1>
