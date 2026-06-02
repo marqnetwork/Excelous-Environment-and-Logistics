@@ -44,12 +44,12 @@ export default function DebrisRemoval() {
               Disaster <span className="not-italic">&</span> Response. <br/>
               At <span className="not-italic text-accent">Scale.</span>
             </h1>
-            <p className="text-xl md:text-2xl text-dark/60 max-w-1xl mx-auto font-light leading-relaxed mb-26 italic">
+            <p className="text-xl md:text-2xl text-dark/60 max-w-1xl mx-auto font-light leading-relaxed mb-16 italic">
               When disaster strikes, recovery doesn’t happen by chance — it happens through systematic deployment, coordinated logistics, and field teams that know how to execute under pressure. We provide the operational scale that federal, state, and local recovery efforts demand.”
             </p>
           </motion.div>
         </div>
-        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[1px] h-24 bg-accent/30" />
+        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[1px] h-9 bg-accent/30" />
       </section>
 
       {/* Intro Narrative */}
