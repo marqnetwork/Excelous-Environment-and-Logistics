@@ -60,11 +60,20 @@ export default function DebrisRemoval() {
               When disaster hits, the clock starts immediately. Excelous deploys hauling crews, site cleanup teams, and emergency logistics support within hours of activation — not days. We operate under federal and state disaster frameworks, supporting FEMA-coordinated response efforts and DOT infrastructure restoration with the speed and compliance that critical recovery operations demand.
             </p>
             <div className="flex flex-wrap justify-center gap-12 font-bold tracking-[0.3em] uppercase text-[10px] text-accent pt-12 border-t border-accent/10">
-              {['North Carolina Response - Hurricane debris removal and road clearance', 'Virginia Recovery - Multi-site workforce deployment', 'Florida Mobilization - Rapid response activation within 48 hours'].map(state => (
+              {['North Carolina Response - Hurricane debris removal and road clearance operations', 'Virginia Recovery - Multi-site workforce deployment and logistics coordination', 'Florida Mobilization - Rapid response activation and crew deployment'].map(state => (
                 <span key={state} className="flex items-center gap-3">
                   <ShieldCheck size={16} /> {state}
                 </span>
               ))}
+              <span key={state} className="flex items-center gap-3">
+                  <ShieldCheck size={16} /> <p>North Carolina Response - Hurricane debris removal and road clearance operations</p>
+              </span>
+              <span key={state} className="flex items-center gap-3">
+                  <ShieldCheck size={16} /> <p>North Carolina Response - Hurricane debris removal and road clearance operations</p>
+              </span>
+              <span key={state} className="flex items-center gap-3">
+                  <ShieldCheck size={16} /> <p>North Carolina Response - Hurricane debris removal and road clearance operations</p>
+              </span>
             </div>
           </div>
         </div>
