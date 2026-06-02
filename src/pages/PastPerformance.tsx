@@ -101,7 +101,7 @@ export default function PastPerformance() {
           <h1 className="text-5xl md:text-[6rem] font-serif text-dark italic leading-tight">
             When Disaster Strikes, <span className="not-italic">We're Already Moving.</span>
           </h1>
-          <p className="mt-12 text-xl font-light text-dark/60 max-w-2xl mx-auto italic leading-relaxed">
+          <p className="mt-12 text-xl md:text-2xl text-dark/60 max-w-1xl font-light mx-auto italic leading-relaxed">
             "When disaster strikes, recovery doesn't happen by chance — it happens through systematic deployment, coordinated logistics, and field teams that know how to execute under pressure. We provide the operational scale that federal, state, and local recovery efforts demand."
           </p>
         </div>
