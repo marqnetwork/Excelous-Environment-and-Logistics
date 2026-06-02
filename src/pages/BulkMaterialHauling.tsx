@@ -53,12 +53,12 @@ export default function BulkMaterialHauling() {
               Bulk Materials <span className="not-italic">Hauling</span><br/>
               At <span className="not-italic text-accent">Scale.</span>
             </h1>
-            <p className="text-xl text-dark/60 max-w-2xl mx-auto font-light leading-relaxed mb-16 italic">
+            <p className="text-xl md:text-2xl text-dark/60 max-w-1xl mx-auto font-light leading-relaxed mb-6 italic">
               "DOT infrastructure and recovery projects move on tight schedules — and material delays stop everything. We provide the fleet capacity and logistical coordination to keep your project on timeline."
             </p>
           </motion.div>
         </div>
-        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[1px] h-24 bg-accent/30" />
+        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[1px] h-9 bg-accent/30" />
       </section>
 
       {/* Intro Narrative */}
