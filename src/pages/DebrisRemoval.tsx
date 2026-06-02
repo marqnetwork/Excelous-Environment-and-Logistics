@@ -65,15 +65,6 @@ export default function DebrisRemoval() {
                   <ShieldCheck size={16} /> {state}
                 </span>
               ))}
-              <span key={state} className="flex items-center gap-3">
-                  <ShieldCheck size={16} /> <p>North Carolina Response - Hurricane debris removal and road clearance operations</p>
-              </span>
-              <span key={state} className="flex items-center gap-3">
-                  <ShieldCheck size={16} /> <p>North Carolina Response - Hurricane debris removal and road clearance operations</p>
-              </span>
-              <span key={state} className="flex items-center gap-3">
-                  <ShieldCheck size={16} /> <p>North Carolina Response - Hurricane debris removal and road clearance operations</p>
-              </span>
             </div>
           </div>
         </div>
