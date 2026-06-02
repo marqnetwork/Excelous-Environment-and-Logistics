@@ -60,21 +60,21 @@ export default function Contact() {
                     <Mail className="text-accent shrink-0 mt-1" size={24} />
                     <div>
                       <h4 className="text-[10px] font-bold tracking-[0.3em] uppercase text-accent mb-2">Correspondence</h4>
-                      <p className="font-serif italic text-lg text-dark/90">mking@excelousenviro.net</p>
+                      <p className="font-serif text-lg text-dark/90">mking@excelousenviro.net</p>
                     </div>
                   </div>
                   <div className="flex gap-6 items-start">
                     <Phone className="text-accent shrink-0 mt-1" size={24} />
                     <div>
                       <h4 className="text-[10px] font-bold tracking-[0.3em] uppercase text-accent mb-2">Voice</h4>
-                      <p className="font-serif italic text-lg text-dark/90">(678) 898 2678</p>
+                      <p className="font-serif text-lg text-dark/90">(678) 898 2678</p>
                     </div>
                   </div>
                   <div className="flex gap-6 items-start">
                     <MapPin className="text-accent shrink-0 mt-1" size={24} />
                     <div>
                       <h4 className="text-[10px] font-bold tracking-[0.3em] uppercase text-accent mb-2">Regional Hub</h4>
-                      <p className="font-serif italic text-lg text-dark/90">Georgia</p>
+                      <p className="font-serif text-lg text-dark/90">Georgia</p>
                     </div>
                   </div>
                 </div>
