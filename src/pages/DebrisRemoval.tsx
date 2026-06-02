@@ -40,11 +40,11 @@ export default function DebrisRemoval() {
               <span className="text-accent font-bold tracking-[0.4em] text-[10px] uppercase">Strategic Response</span>
               <div className="h-[1px] w-12 bg-accent" />
             </div>
-            <h1 className="text-5xl md:text-[5rem] mb-12 font-serif italic text-dark leading-tight">
+            <h1 className="text-6xl md:text-[7rem] mb-12 font-serif italic text-dark leading-tight">
               Disaster <span className="not-italic">&</span> Response. <br/>
               At <span className="not-italic text-accent">Scale.</span>
             </h1>
-            <p className="text-xl text-dark/60 max-w-2xl mx-auto font-light leading-relaxed mb-16 italic">
+            <p className="text-xl md:text-2xl text-dark/60 max-w-2xl mx-auto font-light leading-relaxed mb-16 italic">
               When disaster strikes, recovery doesn’t happen by chance — it happens through systematic deployment, coordinated logistics, and field teams that know how to execute under pressure. We provide the operational scale that federal, state, and local recovery efforts demand.”
             </p>
           </motion.div>
