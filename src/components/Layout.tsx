@@ -177,7 +177,7 @@ export function Footer() {
             <img src="https://marqnetworks.co/wp-content/uploads/2026/05/White-Logo-bg-removed-2-e1778793613961.png" alt="ECHS Logo" className="w-50 object-contain p-0.5" />
           </Link>
           <p className="font-serif italic text-xl text-white/70 mb-10 max-w-sm">
-            "When the environment demands a solution, we deliver excellence."
+            "The Capacity to Respond. The Discipline to Perform."
           </p>
         </div>
 
