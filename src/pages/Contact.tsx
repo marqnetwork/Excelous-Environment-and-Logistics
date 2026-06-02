@@ -85,9 +85,7 @@ export default function Contact() {
             <div className="lg:col-span-8">
               <div className="bg-white p-12 md:p-20 border border-accent/20 shadow-xl relative">
                 {/* Decorative Pattern */}
-                <div className="absolute top-0 right-0 w-32 h-32 opacity-[0.05] grayscale pointer-events-none">
-                   <img src="https://images.unsplash.com/photo-1516937941344-00b4e0337589?auto=format&fit=crop&q=80&w=400" className="w-full h-full object-cover" alt="texture" referrerPolicy="no-referrer" />
-                </div>
+                
 
                 <h2 className="text-4xl font-serif text-dark mb-12 italic leading-tight">Initiate an <span className="not-italic text-accent">Inquiry.</span></h2>
                 
