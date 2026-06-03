@@ -107,7 +107,7 @@ export default function Home() {
                 </Link>
               </motion.div>
               <div className="order-1 lg:order-2 p-4 border border-accent/20">
-                <div className="h-[500px] overflow-hidden grayscale hover:grayscale-0 transition-all duration-1000">
+                <div className="h-[500px] overflow-hidden transition-all duration-1000">
                    <img src="https://marqnetworks.co/wp-content/uploads/2026/06/home-pg-services-DR.jpg" className="w-full h-full object-cover" alt="Heavy equipment" referrerPolicy="no-referrer" />
                 </div>
               </div>
@@ -116,7 +116,7 @@ export default function Home() {
             {/* Service 2 */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
                 <div className="p-4 border border-accent/20">
-                  <div className="h-[500px] overflow-hidden grayscale hover:grayscale-0 transition-all duration-1000">
+                  <div className="h-[500px] overflow-hidden transition-all duration-1000">
                      <img src="https://marqnetworks.co/wp-content/uploads/2026/05/1.png" className="w-full h-full object-cover" alt="Industrial service" referrerPolicy="no-referrer" />
                   </div>
                 </div>
@@ -150,7 +150,7 @@ export default function Home() {
                 </Link>
               </motion.div>
               <div className="order-1 lg:order-2 p-4 border border-accent/20">
-                <div className="h-[500px] overflow-hidden grayscale hover:grayscale-0 transition-all duration-1000">
+                <div className="h-[500px] overflow-hidden transition-all duration-1000">
                    <img src="https://marqnetworks.co/wp-content/uploads/2026/05/hauling.jpg" className="w-full h-full object-cover" alt="Heavy equipment" referrerPolicy="no-referrer" />
                 </div>
               </div>
