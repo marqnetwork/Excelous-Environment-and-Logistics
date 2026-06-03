@@ -108,7 +108,7 @@ export default function PastPerformance() {
       </section>
 
       {/* Project Case Studies */}
-      <section className="py-40 bg-white">
+      <section className="py-10 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="space-y-64">
             {projects.map((project, i) => (
