@@ -15,7 +15,7 @@ const projects = [
       'Safety Management: Implementing slope-specific safety protocols for crew members.',
       'Environmental Protection: Minimizing disruption to wildlife and drainage systems during the cleanup.'
     ],
-    image: 'https://marqnetworks.co/wp-content/uploads/2026/06/replace-3.jpg'
+    image: 'https://marqnetworks.co/wp-content/uploads/2026/06/truck-with-logo.jpg'
   },
   {
     title: 'Debris Removal and Hauling',
@@ -122,7 +122,7 @@ export default function PastPerformance() {
               >
                 <div className={`lg:col-span-6 ${i % 2 === 1 ? 'lg:order-2' : ''}`}>
                   <div className="p-4 border border-accent/20 relative group bg-cream/20">
-                    <div className="aspect-[16/10] overflow-hidden grayscale group-hover:grayscale-0 transition-all duration-1000">
+                    <div className="aspect-[16/10] overflow-hidden transition-all duration-1000">
                       <img src={project.image} className="w-full h-full object-cover brightness-95" alt={project.title} referrerPolicy="no-referrer" />
                     </div>
                   </div>
