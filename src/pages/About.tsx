@@ -51,16 +51,7 @@ export default function About() {
       <section className="py-40 bg-white text-dark overflow-hidden shadow-sm">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-24 items-center">
-            <div className="lg:col-span-6">
-              <div className="p-4 border border-accent/30 bg-cream">
-                <div className="aspect-[4/5] bg-cream relative overflow-hidden grayscale group">
-                   <div className="absolute inset-0 flex items-center justify-center text-accent/20 font-serif text-3xl uppercase tracking-widest text-center px-10 overflow-hidden grayscale hover:grayscale-0 transition-all duration-1000">
-                    <img src="https://marqnetworks.co/wp-content/uploads/2026/05/about.jpg" className="w-full h-full object-cover" alt="Heavy equipment" referrerPolicy="no-referrer" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="lg:col-span-6">
+            <div className="lg:col-span-12">
               <div className="inline-block border-l-4 border-accent pl-8 mb-10">
                 <h2 className="text-4xl md:text-6xl font-serif mb-2 italic">About <span className="text-accent">Excelous Environmental & Logistics</span> </h2>
               </div>
