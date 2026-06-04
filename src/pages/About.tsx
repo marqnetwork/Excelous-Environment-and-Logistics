@@ -71,6 +71,62 @@ export default function About() {
         </div>
       </section>
 
+      {/* SECTION 3 — Affiliate Credential Block */}
+      <section className="py-40 bg-cream/50 border-t border-accent/10">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-24 items-start">
+            <div className="lg:col-span-5">
+              <div className="inline-flex items-center gap-4 mb-8">
+                <span className="text-[10px] font-bold tracking-[0.4em] uppercase text-accent">INSTITUTIONAL BACKING</span>
+                <div className="h-[1px] w-8 bg-accent" />
+              </div>
+              <h2 className="text-4xl md:text-5xl font-serif text-dark mb-8 italic leading-tight">
+                An Affiliate of <br/>
+                <span className="not-italic text-accent">Excelous LLC</span>
+              </h2>
+              <p className="text-lg font-light text-dark/70 leading-relaxed max-w-lg">
+                Excelous Environmental & Logistics is an affiliate of Excelous LLC, an established federal contractor with certifications and contract vehicles that reflect a deep commitment to government performance standards.
+              </p>
+            </div>
+            
+            <div className="lg:col-span-7">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                {[
+                  { title: "8(a) Certified Small Business", desc: "Federal business development program status designed to support qualified diversity-owned enterprises." },
+                  { title: "Economically Disadvantaged Woman Owned Small Business (EDWOSB)", desc: "Facilitates seamless, direct federal set-aside engagement and target industry contracting." },
+                  { title: "MBE/DBE Certified", desc: "Formally certified in Georgia, Tennessee, Pennsylvania, Missouri, Illinois, Maryland, and Massachusetts." },
+                  { title: "GSA Multiple Award Schedule (MAS)", desc: "Pre-negotiated contract vehicle ensuring speed, transparency, and compliance: 47QTCA19D00KK." },
+                  { title: "8(a) STARS III IDIQ", desc: "Access path for prime government procurement frameworks in advanced operations." },
+                  { title: "ISO 9000 Certified", desc: "Dedicated institutional commitment to system standardization and consistent quality execution standards." }
+                ].map((cred, idx) => (
+                  <motion.div 
+                    key={cred.title}
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.6, delay: idx * 0.1 }}
+                    className="p-8 border border-accent/20 bg-white shadow-sm flex flex-col justify-between group hover:border-accent transition-all duration-500"
+                    id={`about-cred-${idx}`}
+                  >
+                    <div>
+                      <div className="text-accent text-[9px] font-bold tracking-[0.3em] uppercase mb-4 opacity-70 group-hover:opacity-100 transition-opacity">
+                        Credential Block 0{idx + 1}
+                      </div>
+                      <h3 className="text-lg font-serif text-dark mb-3 italic leading-snug group-hover:text-accent transition-colors">
+                        {cred.title}
+                      </h3>
+                      <p className="text-xs font-light text-dark/60 leading-relaxed">
+                        {cred.desc}
+                      </p>
+                    </div>
+                  </motion.div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Values - Traditional Flow */}
       <section className="py-40 bg-cream/30">
         <div className="max-w-7xl mx-auto px-6 text-center mb-32">
