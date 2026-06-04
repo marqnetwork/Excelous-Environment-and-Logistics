@@ -133,22 +133,22 @@ export default function GreaseTrap() {
                 { 
                   label: 'Hotels & Hospitality', 
                   desc: 'High-volume kitchen operations with strict health code and municipal FOG compliance requirements.', 
-                  img: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=800' 
+                  img: 'https://marqnetworks.co/wp-content/uploads/2026/05/hotel.jpg' 
                 },
                 { 
                   label: 'Universities & Institutions', 
                   desc: 'Large-scale food service operations across multiple dining facilities requiring coordinated maintenance schedules.', 
-                  img: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=800' 
+                  img: 'https://marqnetworks.co/wp-content/uploads/2026/05/univers.jpg' 
                 },
                 { 
                   label: 'Hospitals & Healthcare Facilities', 
                   desc: 'Compliance-critical environments where service disruption and inspection failures carry significant regulatory risk.', 
-                  img: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=800' 
+                  img: 'https://marqnetworks.co/wp-content/uploads/2026/05/health.jpg' 
                 },
                 { 
                   label: 'Corporate Campuses & Office Parks', 
                   desc: 'On-site dining and cafeteria operations requiring scheduled maintenance and documentation for facilities management teams.', 
-                  img: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800' 
+                  img: 'https://marqnetworks.co/wp-content/uploads/2026/05/corp.jpg' 
                 },
                 { 
                   label: 'Municipal & Government Facilities', 
