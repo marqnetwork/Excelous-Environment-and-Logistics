@@ -50,8 +50,8 @@ export default function BulkMaterialHauling() {
               <div className="h-[1px] w-12 bg-accent" />
             </div>
             <h1 className="text-6xl md:text-[7rem] mb-12 font-serif italic text-dark leading-tight">
-              Bulk Materials <span className="not-italic">Hauling</span><br/>
-              At <span className="not-italic text-accent">Scale.</span>
+              Moving <span className="not-italic">Materials.</span><br/>
+              Delivering <span className="not-italic text-accent">Results.</span>
             </h1>
             <p className="text-xl md:text-2xl text-dark/60 max-w-1xl mx-auto font-light leading-relaxed mb-6 italic">
               "DOT infrastructure and recovery projects move on tight schedules — and material delays stop everything. We provide the fleet capacity and logistical coordination to keep your project on timeline."
