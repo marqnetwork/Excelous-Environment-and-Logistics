@@ -179,9 +179,6 @@ export default function GreaseTrap() {
                   
                   {/* Content over background */}
                   <div className="relative z-10 text-left">
-                    <span className="text-[9px] font-bold tracking-[0.4em] text-accent uppercase mb-4 block opacity-85">
-                      Sector 0{idx + 1}
-                    </span>
                     <h3 className="font-serif italic text-2xl text-cream mb-4 group-hover:text-accent transition-colors leading-tight">
                       {item.label}
                     </h3>
