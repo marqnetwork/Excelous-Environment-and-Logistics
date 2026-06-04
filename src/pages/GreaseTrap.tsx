@@ -31,7 +31,7 @@ export default function GreaseTrap() {
             initial={{ scale: 1.1 }}
             animate={{ scale: 1 }}
             transition={{ duration: 15, repeat: Infinity, repeatType: "reverse", ease: "linear" }}
-            src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&q=80&w=2000" 
+            src="https://marqnetworks.co/wp-content/uploads/2026/06/gt-hero-bn.jpg" 
             className="w-full h-full object-cover brightness-[0.7] opacity-60"
             alt="Industrial kitchen background"
             referrerPolicy="no-referrer"
