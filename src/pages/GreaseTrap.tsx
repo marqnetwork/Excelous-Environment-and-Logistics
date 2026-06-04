@@ -119,43 +119,13 @@ export default function GreaseTrap() {
         </div>
       </section>
 
-      {/* Facilities Grid */}
-      <section className="py-40 bg-cream/30 border-y border-accent/10">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-32">
-            <h2 className="text-4xl md:text-6xl font-serif text-dark italic">Facilities We <span className="text-accent not-italic">Serve.</span></h2>
-            <p>Any facility that prepares or serves food at scale has a grease trap compliance obligation. We serve the full range</p>
-            <div className="w-24 h-[1px] bg-accent mx-auto mt-8" />
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-accent/10 border border-accent/10 shadow-sm">
-            {facilities.map((service, i) => (
-              <motion.div 
-                key={service.title}
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                viewport={{ once: true }}
-                transition={{ delay: i * 0.1 }}
-                className="bg-white p-12 hover:bg-cream/50 transition-colors group"
-              >
-                <div className="text-accent mb-10 group-hover:scale-110 transition-transform">
-                  {service.icon}
-                </div>
-                <h3 className="text-2xl font-serif text-dark mb-6">{service.title}</h3>
-                <p className="text-dark/60 font-light leading-relaxed">{service.desc}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Industries Served */}
       <section className="py-40 bg-white text-dark">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-24 items-center">
             <div className="lg:col-span-12 mb-20 text-center">
-               <span className="text-[10px] font-bold tracking-[0.4em] uppercase text-accent mb-4 block">Institutional Protection</span>
-               <h2 className="text-4xl md:text-[4.5rem] font-serif italic leading-tight text-dark">Institutional <span className="not-italic text-accent">Sectors</span> We Protect.</h2>
+               <h2 className="text-4xl md:text-6xl font-serif text-dark italic">Facilities We <span className="text-accent not-italic">Serve.</span></h2>
+                <p>Any facility that prepares or serves food at scale has a grease trap compliance obligation. We serve the full range</p>
                <div className="w-24 h-[1px] bg-accent mx-auto mt-8" />
             </div>
             <div className="lg:col-span-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
