@@ -51,7 +51,7 @@ export default function GreaseTrap() {
               <div className="h-[1px] w-12 bg-accent" />
             </div>
             <h1 className="text-6xl md:text-[7rem] mb-12 font-serif italic text-dark leading-tight">
-              <span className="not-italic">Grease Trap </span><span className="not-italic text-accent">Compliance.</span> 
+              <span className="not-italic">Stay Compliant. </span><span className="not-italic text-accent">Stay Operational.</span> 
             </h1>
             <p className="text-xl md:text-2xl text-dark/60 max-w-1xl mx-auto font-light leading-relaxed mb-16 italic">
               "A failed grease trap inspection doesn’t just create a mess — it creates liability. We keep your operations clean, your records inspection-ready, and your facility on the right side of environmental regulations."
