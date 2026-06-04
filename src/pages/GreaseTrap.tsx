@@ -153,22 +153,72 @@ export default function GreaseTrap() {
       <section className="py-40 bg-white text-dark">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-24 items-center">
-            <div className="lg:col-span-12 mb-12 text-center">
-               <h2 className="text-4xl md:text-[4rem] font-serif italic leading-tight text-dark">Institutional <span className="not-italic text-accent">Sectors</span> We Protect.</h2>
+            <div className="lg:col-span-12 mb-20 text-center">
+               <span className="text-[10px] font-bold tracking-[0.4em] uppercase text-accent mb-4 block">Institutional Protection</span>
+               <h2 className="text-4xl md:text-[4.5rem] font-serif italic leading-tight text-dark">Institutional <span className="not-italic text-accent">Sectors</span> We Protect.</h2>
                <div className="w-24 h-[1px] bg-accent mx-auto mt-8" />
             </div>
-            <div className="lg:col-span-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 text-center">
+            <div className="lg:col-span-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
               {[
-                { label: 'Hotels & Hospitality', img: 'https://marqnetworks.co/wp-content/uploads/2026/05/hotel.jpg' },
-                { label: 'Universities & Schools', img: 'https://marqnetworks.co/wp-content/uploads/2026/05/univers.jpg' },
-                { label: 'Healthcare & Hospitals', img: 'https://marqnetworks.co/wp-content/uploads/2026/05/health.jpg' },
-                { label: 'Corporate Hubs', img: 'https://marqnetworks.co/wp-content/uploads/2026/05/corp.jpg' },
-              ].map(item => (
-                <div key={item.label} className="group">
-                  <div className="aspect-square border border-accent/20 p-2 mb-6 grayscale group-hover:grayscale-0 transition-all duration-1000">
-                     <img src={item.img} className="w-full h-full object-cover brightness-95" alt={item.label} referrerPolicy="no-referrer" />
+                { 
+                  label: 'Hotels & Hospitality', 
+                  desc: 'High-volume kitchen operations with strict health code and municipal FOG compliance requirements.', 
+                  img: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=800' 
+                },
+                { 
+                  label: 'Universities & Institutions', 
+                  desc: 'Large-scale food service operations across multiple dining facilities requiring coordinated maintenance schedules.', 
+                  img: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=800' 
+                },
+                { 
+                  label: 'Hospitals & Healthcare Facilities', 
+                  desc: 'Compliance-critical environments where service disruption and inspection failures carry significant regulatory risk.', 
+                  img: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=800' 
+                },
+                { 
+                  label: 'Corporate Campuses & Office Parks', 
+                  desc: 'On-site dining and cafeteria operations requiring scheduled maintenance and documentation for facilities management teams.', 
+                  img: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800' 
+                },
+                { 
+                  label: 'Municipal & Government Facilities', 
+                  desc: 'Government-operated facilities requiring FOG compliance documentation that meets public sector reporting standards.', 
+                  img: 'https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80&w=800' 
+                },
+                { 
+                  label: 'Restaurants & Food Service Chains', 
+                  desc: 'Single and multi-location commercial food service operations requiring reliable scheduled service and emergency response coverage.', 
+                  img: 'https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&q=80&w=800' 
+                },
+              ].map((item, idx) => (
+                <div 
+                  key={item.label} 
+                  className="relative overflow-hidden border border-accent/20 group p-10 min-h-[360px] flex flex-col justify-end bg-dark shadow-md"
+                  id={`gt-sector-${idx}`}
+                >
+                  {/* Background image & gradient overlay */}
+                  <div className="absolute inset-0 z-0 bg-dark">
+                    <img 
+                      src={item.img} 
+                      className="w-full h-full object-cover transition-all duration-1000 grayscale group-hover:grayscale-0 brightness-[0.3] group-hover:brightness-[0.4] group-hover:scale-105" 
+                      alt={item.label} 
+                      referrerPolicy="no-referrer" 
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-dark/95 via-dark/70 to-transparent" />
                   </div>
-                  <h4 className="text-accent font-serif italic text-lg">{item.label}</h4>
+                  
+                  {/* Content over background */}
+                  <div className="relative z-10 text-left">
+                    <span className="text-[9px] font-bold tracking-[0.4em] text-accent uppercase mb-4 block opacity-85">
+                      Sector 0{idx + 1}
+                    </span>
+                    <h3 className="font-serif italic text-2xl text-cream mb-4 group-hover:text-accent transition-colors leading-tight">
+                      {item.label}
+                    </h3>
+                    <p className="text-xs font-light text-cream/80 leading-relaxed">
+                      {item.desc}
+                    </p>
+                  </div>
                 </div>
               ))}
             </div>
