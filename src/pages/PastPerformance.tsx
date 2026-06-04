@@ -70,7 +70,7 @@ const projects = [
       'Support for environmental compliance and sanitary maintenance requirements.',
       'Responsive field support and operational coordination for ongoing facility maintenance needs.'
     ],
-    image: 'https://marqnetworks.co/wp-content/uploads/2026/06/grease-traps-logo.jpeg'
+    image: 'https://marqnetworks.co/wp-content/uploads/2026/06/grease-traps.jpg'
   }
 ];
 
